@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Git init 초기작업",
-      "path": "1.2. Git/Git init 초기작업.md"
+      "basename": "LVM snapshot system rollback process",
+      "path": "2. Linux/LVM snapshot system rollback process.md"
+    },
+    {
+      "basename": "지금까지 linux에 한것들",
+      "path": "2. Linux/storage/지금까지 linux에 한것들.md"
+    },
+    {
+      "basename": "2024-03-12 개발환경 이전 작업 - Ubuntu",
+      "path": "2. Linux/2024-03-12 개발환경 이전 작업 - Ubuntu.md"
+    },
+    {
+      "basename": "Cmake 설치",
+      "path": "2. Linux/Cmake 설치.md"
+    },
+    {
+      "basename": "Google Cloud Platform",
+      "path": "2. Linux/Google Cloud Platform.md"
     },
     {
       "basename": "리눅스 폴더 백업",
-      "path": "2. Linux/리눅스 폴더 백업.md"
+      "path": "2. Linux/storage/리눅스 폴더 백업.md"
+    },
+    {
+      "basename": "리눅스 환경 변수 추가하기",
+      "path": "2. Linux/storage/리눅스 환경 변수 추가하기.md"
+    },
+    {
+      "basename": "tmux conf 적용",
+      "path": "2. Linux/tmux conf 적용.md"
+    },
+    {
+      "basename": "1. Bash 다루기",
+      "path": "2. Linux/storage/1. Bash 다루기.md"
+    },
+    {
+      "basename": "2.1. GPG signature verify",
+      "path": "2. Linux/storage/2.1. GPG signature verify.md"
+    },
+    {
+      "basename": "Red Hat LLVM 빌드 및 설치하기",
+      "path": "2. Linux/storage/Red Hat LLVM 빌드 및 설치하기.md"
+    },
+    {
+      "basename": "Git init 초기작업",
+      "path": "1.2. Git/Git init 초기작업.md"
     },
     {
       "basename": "상대 경로 찾기",
@@ -14,27 +54,11 @@
     },
     {
       "basename": "2.3. Fedora workstation C++ 개발 환경 setup",
-      "path": "2. Linux/2.3. Fedora workstation C++ 개발 환경 setup.md"
-    },
-    {
-      "basename": "Cmake 설치",
-      "path": "2. Linux/Cmake 설치.md"
-    },
-    {
-      "basename": "지금까지 linux에 한것들",
-      "path": "2. Linux/지금까지 linux에 한것들.md"
+      "path": "2. Linux/storage/2.3. Fedora workstation C++ 개발 환경 setup.md"
     },
     {
       "basename": "3. Python 설치",
-      "path": "2. Linux/3. Python 설치.md"
-    },
-    {
-      "basename": "7.1. timeshift 백업 위치 바꾸기",
-      "path": "2. Linux/7.1. timeshift 백업 위치 바꾸기.md"
-    },
-    {
-      "basename": "tmux conf 적용",
-      "path": "2. Linux/tmux conf 적용.md"
+      "path": "2. Linux/storage/3. Python 설치.md"
     },
     {
       "basename": "git credential manager",
@@ -102,7 +126,7 @@
     },
     {
       "basename": "Red Hat 구독 할당하기",
-      "path": "2. Linux/Red Hat 구독 할당하기.md"
+      "path": "2. Linux/storage/Red Hat 구독 할당하기.md"
     },
     {
       "basename": "2. Fedora workstation 설치 진행",
@@ -129,24 +153,12 @@
       "path": "6.2. note/Whisper 사용하기.md"
     },
     {
-      "basename": "1. Bash 다루기",
-      "path": "2. Linux/1. Bash 다루기.md"
-    },
-    {
       "basename": "1.1. 심볼링 링크, 하드 링크",
       "path": "2. Linux/storage/1.1. 심볼링 링크, 하드 링크.md"
     },
     {
-      "basename": "2024-03-12 개발환경 이전 작업 - Ubuntu",
-      "path": "2. Linux/2024-03-12 개발환경 이전 작업 - Ubuntu.md"
-    },
-    {
       "basename": "Red Hat에서 libc++ 빌드 및 설치",
-      "path": "2. Linux/Red Hat에서 libc++ 빌드 및 설치.md"
-    },
-    {
-      "basename": "Red Hat LLVM 빌드 및 설치하기",
-      "path": "2. Linux/Red Hat LLVM 빌드 및 설치하기.md"
+      "path": "2. Linux/storage/Red Hat에서 libc++ 빌드 및 설치.md"
     },
     {
       "basename": "압축 파일 압축 해제",
@@ -187,10 +199,6 @@
     {
       "basename": "openGL을 사용하기 위한 개 뻘짓",
       "path": "1. C++/openGL을 사용하기 위한 개 뻘짓.md"
-    },
-    {
-      "basename": "openGL을 위한 GLFW 설치",
-      "path": "1. C++/openGL을 위한 GLFW 설치.md"
     }
   ],
   "omittedPaths": [],

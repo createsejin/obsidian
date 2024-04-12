@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md",
+                "file": "2. Linux/LVM snapshot system rollback process.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md",
+                "file": "2. Linux/LVM snapshot system rollback process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md",
+                "file": "2. Linux/LVM snapshot system rollback process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md"
+                "file": "2. Linux/LVM snapshot system rollback process.md"
               }
             }
           },
@@ -156,7 +155,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md"
+                "file": "2. Linux/LVM snapshot system rollback process.md"
               }
             }
           }
@@ -179,20 +178,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f587fe175e7210ba",
+  "active": "567cad341dcc00d2",
   "lastOpenFiles": [
-    "2. Linux/리눅스 폴더 백업.md",
+    "2. Linux/storage/지금까지 linux에 한것들.md",
+    "2. Linux/LVM snapshot system rollback process.md",
+    "2. Linux/2024-03-12 개발환경 이전 작업 - Ubuntu.md",
+    "2. Linux/Cmake 설치.md",
+    "2. Linux/Google Cloud Platform.md",
+    "2. Linux/storage/리눅스 폴더 백업.md",
+    "2. Linux/storage/리눅스 환경 변수 추가하기.md",
+    "2. Linux/tmux conf 적용.md",
+    "2. Linux/WhiteSur-gtk-theme 설치.md",
+    "2. Linux/storage/1. Bash 다루기.md",
+    "2. Linux/7.1. timeshift 백업 위치 바꾸기.md",
+    "2. Linux/storage/2.1. GPG signature verify.md",
+    "2. Linux/storage/Red Hat LLVM 빌드 및 설치하기.md",
+    "1.2. Git/Git init 초기작업.md",
     "6.1. unique_note/2023-10-28-20_56 그램 번인 문제 해결하기.md",
     "6.1. unique_note/2023-11-02-22_07 페도라.md",
     "AppleSDFonts.tar.gz",
     "2. Linux/상대 경로 찾기.md",
-    "2. Linux/2.3. Fedora workstation C++ 개발 환경 setup.md",
-    "2. Linux/Cmake 설치.md",
-    "2. Linux/지금까지 linux에 한것들.md",
-    "2. Linux/3. Python 설치.md",
-    "2. Linux/7.1. timeshift 백업 위치 바꾸기.md",
-    "1.2. Git/Git init 초기작업.md",
-    "2. Linux/tmux conf 적용.md",
+    "2. Linux/storage/2.3. Fedora workstation C++ 개발 환경 setup.md",
+    "2. Linux/storage/3. Python 설치.md",
     "1.2. Git/git credential manager.md",
     "2. Linux/oh my zsh ls 기본 설정.md",
     "3. IDE/neovim/treesitter node name 보는법.md",
@@ -200,15 +207,7 @@
     "1. Rust/leetcode002.md",
     "1.2. Git/Clion에서 Git remote repository 생성하기.md",
     "1. Rust/CXX setup.md",
-    "3. IDE/Rust fmt.md",
-    "Untitled.md",
-    "2. Linux/storage/veracrypt shell script setup.md",
     "3. IDE/neovim",
-    "1.2. Git/Git 기본 명령어 정리.md",
-    "1.2. Git/vscode에서 git 사용시 주의할점.md",
-    "1.2. Git/branch 전환 및 병합.md",
-    "2. Linux/linux font 설치.md",
-    "3. IDE/Visual Studio 2022 폰트 가독성 향상.md",
     "1. C++/Neuron Project",
     "3. IDE",
     "1. C++/Visual Studio",
