@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -178,7 +179,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "567cad341dcc00d2",
+  "active": "f587fe175e7210ba",
   "lastOpenFiles": [
     "2. Linux/리눅스 폴더 백업.md",
     "6.1. unique_note/2023-10-28-20_56 그램 번인 문제 해결하기.md",
