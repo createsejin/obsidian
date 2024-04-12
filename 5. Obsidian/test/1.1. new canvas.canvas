@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"4f544f3a7562114a","type":"group","x":-792,"y":-1225,"width":952,"height":465,"label":"그룹룹"},
+		{"id":"472b57fd41d47dcc","type":"file","file":"test/Untitled_test.md","x":520,"y":-263,"width":250,"height":60},
+		{"id":"db61680106f42bc3","type":"file","file":"1. C++/보관함/헤더파일과 소스파일 둘 다에 include header 해야하는 이유.md","x":-800,"y":-340,"width":440,"height":440,"color":"4"},
+		{"id":"b559e31d1474b481","type":"file","file":"5. Obsidian/test/21. 마크업 test...md","x":-120,"y":-340,"width":400,"height":400,"color":"6"},
+		{"id":"2358e7db7b35a123","type":"text","text":"dddddddddddddddddddddddddddddddddd","x":445,"y":-66,"width":415,"height":106},
+		{"id":"7acc24679f8d893e","type":"file","file":"img/Screenshot from 2023-10-23 09-31-06.png","x":380,"y":-780,"width":334,"height":400},
+		{"id":"3991d22b9b8651da","type":"text","text":"![[noreturn 어트리뷰션#글쎄글쎄]]","x":-720,"y":-700,"width":600,"height":220},
+		{"id":"51b2855b1b840ee3","type":"link","url":"https://www.youtube.com/watch?v=HFK3D7zeyTA&t=225s","x":-691,"y":-1160,"width":543,"height":330}
+	],
+	"edges":[
+		{"id":"39f1829c83181627","fromNode":"db61680106f42bc3","fromSide":"right","toNode":"b559e31d1474b481","toSide":"left","label":"ddd"},
+		{"id":"417bd328690c30cc","fromNode":"b559e31d1474b481","fromSide":"right","toNode":"472b57fd41d47dcc","toSide":"left"},
+		{"id":"fc49d7a97d650873","fromNode":"7acc24679f8d893e","fromSide":"left","toNode":"3991d22b9b8651da","toSide":"right","color":"2"},
+		{"id":"cfeccd8dc90c74fe","fromNode":"51b2855b1b840ee3","fromSide":"right","toNode":"3991d22b9b8651da","toSide":"right"}
+	]
+}

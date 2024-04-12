@@ -1,0 +1,1 @@
+`:InspectTree`를 치면 된다.

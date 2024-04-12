@@ -1,0 +1,1 @@
+`/home/bae/.oh-my-zsh/lib/directories.zsh` 에 보면 ls 관련 alias가 보인다. 여기서 설정해주면 된다. 문제는 기본 ls 명령어가 어느곳에서 설정되는건지 모르겠다는거.. 이것은 좀 찾아봐야겠다.

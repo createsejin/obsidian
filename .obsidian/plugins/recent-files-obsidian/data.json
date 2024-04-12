@@ -1,0 +1,199 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Git init 초기작업",
+      "path": "1.2. Git/Git init 초기작업.md"
+    },
+    {
+      "basename": "리눅스 폴더 백업",
+      "path": "2. Linux/리눅스 폴더 백업.md"
+    },
+    {
+      "basename": "상대 경로 찾기",
+      "path": "2. Linux/상대 경로 찾기.md"
+    },
+    {
+      "basename": "2.3. Fedora workstation C++ 개발 환경 setup",
+      "path": "2. Linux/2.3. Fedora workstation C++ 개발 환경 setup.md"
+    },
+    {
+      "basename": "Cmake 설치",
+      "path": "2. Linux/Cmake 설치.md"
+    },
+    {
+      "basename": "지금까지 linux에 한것들",
+      "path": "2. Linux/지금까지 linux에 한것들.md"
+    },
+    {
+      "basename": "3. Python 설치",
+      "path": "2. Linux/3. Python 설치.md"
+    },
+    {
+      "basename": "7.1. timeshift 백업 위치 바꾸기",
+      "path": "2. Linux/7.1. timeshift 백업 위치 바꾸기.md"
+    },
+    {
+      "basename": "tmux conf 적용",
+      "path": "2. Linux/tmux conf 적용.md"
+    },
+    {
+      "basename": "git credential manager",
+      "path": "1.2. Git/git credential manager.md"
+    },
+    {
+      "basename": "oh my zsh ls 기본 설정",
+      "path": "2. Linux/oh my zsh ls 기본 설정.md"
+    },
+    {
+      "basename": "treesitter node name 보는법",
+      "path": "3. IDE/neovim/treesitter node name 보는법.md"
+    },
+    {
+      "basename": "nvim-treesitter-context 파싱 안되는 현상",
+      "path": "3. IDE/neovim/nvim-treesitter-context 파싱 안되는 현상.md"
+    },
+    {
+      "basename": "leetcode002",
+      "path": "1. Rust/leetcode002.md"
+    },
+    {
+      "basename": "Clion에서 Git remote repository 생성하기",
+      "path": "1.2. Git/Clion에서 Git remote repository 생성하기.md"
+    },
+    {
+      "basename": "CXX setup",
+      "path": "1. Rust/CXX setup.md"
+    },
+    {
+      "basename": "Rust fmt",
+      "path": "3. IDE/Rust fmt.md"
+    },
+    {
+      "basename": "veracrypt shell script setup",
+      "path": "2. Linux/storage/veracrypt shell script setup.md"
+    },
+    {
+      "basename": "2. 구독 목록",
+      "path": "1. C++/보관함/2. 구독 목록.md"
+    },
+    {
+      "basename": "Git 기본 명령어 정리",
+      "path": "1.2. Git/Git 기본 명령어 정리.md"
+    },
+    {
+      "basename": "vscode에서 git 사용시 주의할점",
+      "path": "1.2. Git/vscode에서 git 사용시 주의할점.md"
+    },
+    {
+      "basename": "branch 전환 및 병합",
+      "path": "1.2. Git/branch 전환 및 병합.md"
+    },
+    {
+      "basename": "linux font 설치",
+      "path": "2. Linux/linux font 설치.md"
+    },
+    {
+      "basename": "Baffin 혹한기 방한화",
+      "path": "7. Diary/wishlist/Baffin 혹한기 방한화.md"
+    },
+    {
+      "basename": "Visual Studio 2022 폰트 가독성 향상",
+      "path": "3. IDE/Visual Studio 2022 폰트 가독성 향상.md"
+    },
+    {
+      "basename": "Red Hat 구독 할당하기",
+      "path": "2. Linux/Red Hat 구독 할당하기.md"
+    },
+    {
+      "basename": "2. Fedora workstation 설치 진행",
+      "path": "2. Linux/storage/2. Fedora workstation 설치 진행.md"
+    },
+    {
+      "basename": "OpenCV Rust 빌드 성공",
+      "path": "1. Rust/OpenCV Rust 빌드 성공.md"
+    },
+    {
+      "basename": "Powershell에서 mklink 사용하기",
+      "path": "2.2. Windows/Powershell에서 mklink 사용하기.md"
+    },
+    {
+      "basename": "Remove-Item 명령어",
+      "path": "2.2. Windows/Remove-Item 명령어.md"
+    },
+    {
+      "basename": "원하는 폰트 찾기",
+      "path": "2. Linux/원하는 폰트 찾기.md"
+    },
+    {
+      "basename": "Whisper 사용하기",
+      "path": "6.2. note/Whisper 사용하기.md"
+    },
+    {
+      "basename": "1. Bash 다루기",
+      "path": "2. Linux/1. Bash 다루기.md"
+    },
+    {
+      "basename": "1.1. 심볼링 링크, 하드 링크",
+      "path": "2. Linux/storage/1.1. 심볼링 링크, 하드 링크.md"
+    },
+    {
+      "basename": "2024-03-12 개발환경 이전 작업 - Ubuntu",
+      "path": "2. Linux/2024-03-12 개발환경 이전 작업 - Ubuntu.md"
+    },
+    {
+      "basename": "Red Hat에서 libc++ 빌드 및 설치",
+      "path": "2. Linux/Red Hat에서 libc++ 빌드 및 설치.md"
+    },
+    {
+      "basename": "Red Hat LLVM 빌드 및 설치하기",
+      "path": "2. Linux/Red Hat LLVM 빌드 및 설치하기.md"
+    },
+    {
+      "basename": "압축 파일 압축 해제",
+      "path": "2. Linux/압축 파일 압축 해제.md"
+    },
+    {
+      "basename": "슈퍼컴 C++ CMake 개발환경 세팅",
+      "path": "3. IDE/슈퍼컴 C++ CMake 개발환경 세팅.md"
+    },
+    {
+      "basename": "Oracle instance client 설치",
+      "path": "1.1. SQL/Oracle instance client 설치.md"
+    },
+    {
+      "basename": "VS 2022에서 wstring 한글 입출력 문제",
+      "path": "3. IDE/VS 2022에서 wstring 한글 입출력 문제.md"
+    },
+    {
+      "basename": "VS 2022에서 Vcpkg 설정방법",
+      "path": "3. IDE/VS 2022에서 Vcpkg 설정방법.md"
+    },
+    {
+      "basename": "VS 2022에서 file들을 utf-8 인코딩으로 만들게 설정하기",
+      "path": "3. IDE/VS 2022에서 file들을 utf-8 인코딩으로 만들게 설정하기.md"
+    },
+    {
+      "basename": "VSCode C++ windows 개발환경 세팅",
+      "path": "3. IDE/VSCode C++ windows 개발환경 세팅.md"
+    },
+    {
+      "basename": "thread 정리",
+      "path": "1. C++/thread 정리.md"
+    },
+    {
+      "basename": "static, non-static, instance, 생명 주기",
+      "path": "1. C++/static, non-static, instance, 생명 주기.md"
+    },
+    {
+      "basename": "openGL을 사용하기 위한 개 뻘짓",
+      "path": "1. C++/openGL을 사용하기 위한 개 뻘짓.md"
+    },
+    {
+      "basename": "openGL을 위한 GLFW 설치",
+      "path": "1. C++/openGL을 위한 GLFW 설치.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

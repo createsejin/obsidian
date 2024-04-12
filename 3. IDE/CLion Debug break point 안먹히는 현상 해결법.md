@@ -1,0 +1,1 @@
+아마도 Clang, LLVM을 기반으로 컴파일 하기 때문에 디버거를 GCC 기반의 GDB를 사용하면 브레이크 포인트가 not hit된다. 그러면 CLion 설정에서 Build, Execution, Depployment -> Toolchains에서 Debugger를 LLDB로 바꾸면 브레이크 포인트가 제대로 hit 된다.
