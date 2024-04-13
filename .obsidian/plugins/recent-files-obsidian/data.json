@@ -1,24 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "LVM snapshot system rollback process",
-      "path": "2. Linux/LVM snapshot system rollback process.md"
+      "basename": "Nouveau로 바꾸면서 건든 파일들",
+      "path": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md"
     },
     {
-      "basename": "지금까지 linux에 한것들",
-      "path": "2. Linux/storage/지금까지 linux에 한것들.md"
+      "basename": "tmux clipboard integration",
+      "path": "2. Linux/tmux clipboard integration.md"
+    },
+    {
+      "basename": "Wayland에서 Xorg로 다시 바꿈",
+      "path": "2. Linux/Wayland에서 Xorg로 다시 바꿈.md"
+    },
+    {
+      "basename": "tmux conf 적용",
+      "path": "2. Linux/tmux conf 적용.md"
     },
     {
       "basename": "2024-03-12 개발환경 이전 작업 - Ubuntu",
       "path": "2. Linux/2024-03-12 개발환경 이전 작업 - Ubuntu.md"
     },
     {
-      "basename": "Cmake 설치",
-      "path": "2. Linux/Cmake 설치.md"
+      "basename": "linux font 설치",
+      "path": "2. Linux/linux font 설치.md"
+    },
+    {
+      "basename": "원하는 폰트 찾기",
+      "path": "2. Linux/storage/원하는 폰트 찾기.md"
+    },
+    {
+      "basename": "압축 파일 압축 해제",
+      "path": "2. Linux/storage/압축 파일 압축 해제.md"
+    },
+    {
+      "basename": "상대 경로 찾기",
+      "path": "2. Linux/상대 경로 찾기.md"
+    },
+    {
+      "basename": "oh my zsh ls 기본 설정",
+      "path": "2. Linux/oh my zsh ls 기본 설정.md"
+    },
+    {
+      "basename": "LVM snapshot system rollback process",
+      "path": "2. Linux/LVM snapshot system rollback process.md"
+    },
+    {
+      "basename": "34. GNU Coreutils",
+      "path": "2. Linux/storage/34. GNU Coreutils.md"
     },
     {
       "basename": "Google Cloud Platform",
-      "path": "2. Linux/Google Cloud Platform.md"
+      "path": "2. Linux/storage/Google Cloud Platform.md"
+    },
+    {
+      "basename": "Cmake 설치",
+      "path": "2. Linux/storage/Cmake 설치.md"
+    },
+    {
+      "basename": "8.1. 바탕화면 바로가기 적용방법",
+      "path": "2. Linux/storage/8.1. 바탕화면 바로가기 적용방법.md"
+    },
+    {
+      "basename": "지금까지 linux에 한것들",
+      "path": "2. Linux/storage/지금까지 linux에 한것들.md"
     },
     {
       "basename": "리눅스 폴더 백업",
@@ -27,10 +71,6 @@
     {
       "basename": "리눅스 환경 변수 추가하기",
       "path": "2. Linux/storage/리눅스 환경 변수 추가하기.md"
-    },
-    {
-      "basename": "tmux conf 적용",
-      "path": "2. Linux/tmux conf 적용.md"
     },
     {
       "basename": "1. Bash 다루기",
@@ -49,10 +89,6 @@
       "path": "1.2. Git/Git init 초기작업.md"
     },
     {
-      "basename": "상대 경로 찾기",
-      "path": "2. Linux/상대 경로 찾기.md"
-    },
-    {
       "basename": "2.3. Fedora workstation C++ 개발 환경 setup",
       "path": "2. Linux/storage/2.3. Fedora workstation C++ 개발 환경 setup.md"
     },
@@ -63,10 +99,6 @@
     {
       "basename": "git credential manager",
       "path": "1.2. Git/git credential manager.md"
-    },
-    {
-      "basename": "oh my zsh ls 기본 설정",
-      "path": "2. Linux/oh my zsh ls 기본 설정.md"
     },
     {
       "basename": "treesitter node name 보는법",
@@ -113,10 +145,6 @@
       "path": "1.2. Git/branch 전환 및 병합.md"
     },
     {
-      "basename": "linux font 설치",
-      "path": "2. Linux/linux font 설치.md"
-    },
-    {
       "basename": "Baffin 혹한기 방한화",
       "path": "7. Diary/wishlist/Baffin 혹한기 방한화.md"
     },
@@ -145,10 +173,6 @@
       "path": "2.2. Windows/Remove-Item 명령어.md"
     },
     {
-      "basename": "원하는 폰트 찾기",
-      "path": "2. Linux/원하는 폰트 찾기.md"
-    },
-    {
       "basename": "Whisper 사용하기",
       "path": "6.2. note/Whisper 사용하기.md"
     },
@@ -159,10 +183,6 @@
     {
       "basename": "Red Hat에서 libc++ 빌드 및 설치",
       "path": "2. Linux/storage/Red Hat에서 libc++ 빌드 및 설치.md"
-    },
-    {
-      "basename": "압축 파일 압축 해제",
-      "path": "2. Linux/압축 파일 압축 해제.md"
     },
     {
       "basename": "슈퍼컴 C++ CMake 개발환경 세팅",
@@ -179,26 +199,6 @@
     {
       "basename": "VS 2022에서 Vcpkg 설정방법",
       "path": "3. IDE/VS 2022에서 Vcpkg 설정방법.md"
-    },
-    {
-      "basename": "VS 2022에서 file들을 utf-8 인코딩으로 만들게 설정하기",
-      "path": "3. IDE/VS 2022에서 file들을 utf-8 인코딩으로 만들게 설정하기.md"
-    },
-    {
-      "basename": "VSCode C++ windows 개발환경 세팅",
-      "path": "3. IDE/VSCode C++ windows 개발환경 세팅.md"
-    },
-    {
-      "basename": "thread 정리",
-      "path": "1. C++/thread 정리.md"
-    },
-    {
-      "basename": "static, non-static, instance, 생명 주기",
-      "path": "1. C++/static, non-static, instance, 생명 주기.md"
-    },
-    {
-      "basename": "openGL을 사용하기 위한 개 뻘짓",
-      "path": "1. C++/openGL을 사용하기 위한 개 뻘짓.md"
     }
   ],
   "omittedPaths": [],

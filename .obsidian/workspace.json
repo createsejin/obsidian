@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Linux/LVM snapshot system rollback process.md",
+                "file": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Linux/LVM snapshot system rollback process.md",
+                "file": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Linux/LVM snapshot system rollback process.md",
+                "file": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Linux/LVM snapshot system rollback process.md"
+                "file": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Linux/LVM snapshot system rollback process.md"
+                "file": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md"
               }
             }
           }
@@ -180,14 +180,24 @@
   },
   "active": "567cad341dcc00d2",
   "lastOpenFiles": [
-    "2. Linux/storage/지금까지 linux에 한것들.md",
-    "2. Linux/LVM snapshot system rollback process.md",
+    "2. Linux/tmux clipboard integration.md",
+    "2. Linux/Nouveau로 바꾸면서 건든 파일들.md",
+    "2. Linux/Wayland에서 Xorg로 다시 바꿈.md",
+    "2. Linux/tmux conf 적용.md",
     "2. Linux/2024-03-12 개발환경 이전 작업 - Ubuntu.md",
-    "2. Linux/Cmake 설치.md",
-    "2. Linux/Google Cloud Platform.md",
+    "2. Linux/linux font 설치.md",
+    "2. Linux/storage/원하는 폰트 찾기.md",
+    "2. Linux/storage/압축 파일 압축 해제.md",
+    "2. Linux/상대 경로 찾기.md",
+    "2. Linux/oh my zsh ls 기본 설정.md",
+    "2. Linux/LVM snapshot system rollback process.md",
+    "2. Linux/storage/34. GNU Coreutils.md",
+    "2. Linux/storage/Google Cloud Platform.md",
+    "2. Linux/storage/Cmake 설치.md",
+    "2. Linux/storage/8.1. 바탕화면 바로가기 적용방법.md",
+    "2. Linux/storage/지금까지 linux에 한것들.md",
     "2. Linux/storage/리눅스 폴더 백업.md",
     "2. Linux/storage/리눅스 환경 변수 추가하기.md",
-    "2. Linux/tmux conf 적용.md",
     "2. Linux/WhiteSur-gtk-theme 설치.md",
     "2. Linux/storage/1. Bash 다루기.md",
     "2. Linux/7.1. timeshift 백업 위치 바꾸기.md",
@@ -197,16 +207,6 @@
     "6.1. unique_note/2023-10-28-20_56 그램 번인 문제 해결하기.md",
     "6.1. unique_note/2023-11-02-22_07 페도라.md",
     "AppleSDFonts.tar.gz",
-    "2. Linux/상대 경로 찾기.md",
-    "2. Linux/storage/2.3. Fedora workstation C++ 개발 환경 setup.md",
-    "2. Linux/storage/3. Python 설치.md",
-    "1.2. Git/git credential manager.md",
-    "2. Linux/oh my zsh ls 기본 설정.md",
-    "3. IDE/neovim/treesitter node name 보는법.md",
-    "3. IDE/neovim/nvim-treesitter-context 파싱 안되는 현상.md",
-    "1. Rust/leetcode002.md",
-    "1.2. Git/Clion에서 Git remote repository 생성하기.md",
-    "1. Rust/CXX setup.md",
     "3. IDE/neovim",
     "1. C++/Neuron Project",
     "3. IDE",
