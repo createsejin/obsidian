@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기",
+      "path": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md"
+    },
+    {
+      "basename": "2023-11-09-Thu",
+      "path": "7. Diary/2023-11-09-Thu.md"
+    },
+    {
+      "basename": "2023-10-31-Tue",
+      "path": "7. Diary/2023-10-31-Tue.md"
+    },
+    {
       "basename": "Nouveau로 바꾸면서 건든 파일들",
       "path": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md"
     },
@@ -145,10 +157,6 @@
       "path": "1.2. Git/branch 전환 및 병합.md"
     },
     {
-      "basename": "Baffin 혹한기 방한화",
-      "path": "7. Diary/wishlist/Baffin 혹한기 방한화.md"
-    },
-    {
       "basename": "Visual Studio 2022 폰트 가독성 향상",
       "path": "3. IDE/Visual Studio 2022 폰트 가독성 향상.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Oracle instance client 설치",
       "path": "1.1. SQL/Oracle instance client 설치.md"
-    },
-    {
-      "basename": "VS 2022에서 wstring 한글 입출력 문제",
-      "path": "3. IDE/VS 2022에서 wstring 한글 입출력 문제.md"
-    },
-    {
-      "basename": "VS 2022에서 Vcpkg 설정방법",
-      "path": "3. IDE/VS 2022에서 Vcpkg 설정방법.md"
     }
   ],
   "omittedPaths": [],
