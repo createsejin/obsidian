@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Linux/Arch Linux/기본 설치 계획.md",
+                "file": "2.2. Windows/KB5036893 업데이트 trouble.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md",
+                "file": "2.2. Windows/KB5036893 업데이트 trouble.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md",
+                "file": "2.2. Windows/KB5036893 업데이트 trouble.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md"
+                "file": "2.2. Windows/KB5036893 업데이트 trouble.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1.2. Git/Git init 초기작업.md"
+                "file": "2.2. Windows/KB5036893 업데이트 trouble.md"
               }
             }
           }
@@ -215,11 +215,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e8601748f763e7e9",
+  "active": "8b4ff47172c54045",
   "lastOpenFiles": [
+    "2. Linux/Arch Linux/기본 설치 계획.md",
+    "2.2. Windows/KB5036893 업데이트 trouble.md",
+    "1.2. Git/Git init 초기작업.md",
     "2. Linux/Arch Linux/각종 설치 command.md",
     "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md",
-    "2. Linux/Arch Linux/기본 설치 계획.md",
     "2. Linux/tmux clipboard integration.md",
     "1.2. Git/git credential manager.md",
     "2. Linux/tmux conf 적용.md",
@@ -250,8 +252,6 @@
     "2. Linux/Wayland에서 Xorg로 다시 바꿈.md",
     "2. Linux/2024-03-12 개발환경 이전 작업 - Ubuntu.md",
     "2. Linux/linux font 설치.md",
-    "2. Linux/storage/원하는 폰트 찾기.md",
-    "2. Linux/storage/압축 파일 압축 해제.md",
     "AppleSDFonts.tar.gz",
     "3. IDE/neovim",
     "1. C++/Neuron Project",

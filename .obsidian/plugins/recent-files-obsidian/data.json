@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "KB5036893 업데이트 trouble",
+      "path": "2.2. Windows/KB5036893 업데이트 trouble.md"
+    },
+    {
+      "basename": "기본 설치 계획",
+      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
+    },
+    {
       "basename": "Git init 초기작업",
       "path": "1.2. Git/Git init 초기작업.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "archlinux 재설치 프로젝트",
       "path": "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md"
-    },
-    {
-      "basename": "기본 설치 계획",
-      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
     },
     {
       "basename": "tmux clipboard integration",
