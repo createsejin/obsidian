@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Git init 초기작업",
+      "path": "1.2. Git/Git init 초기작업.md"
+    },
+    {
       "basename": "각종 설치 command",
       "path": "2. Linux/Arch Linux/각종 설치 command.md"
+    },
+    {
+      "basename": "archlinux 재설치 프로젝트",
+      "path": "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md"
+    },
+    {
+      "basename": "기본 설치 계획",
+      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
     },
     {
       "basename": "tmux clipboard integration",
@@ -11,14 +23,6 @@
     {
       "basename": "git credential manager",
       "path": "1.2. Git/git credential manager.md"
-    },
-    {
-      "basename": "기본 설치 계획",
-      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
-    },
-    {
-      "basename": "archlinux 재설치 프로젝트",
-      "path": "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md"
     },
     {
       "basename": "tmux conf 적용",
@@ -167,10 +171,6 @@
     {
       "basename": "Red Hat LLVM 빌드 및 설치하기",
       "path": "2. Linux/storage/Red Hat LLVM 빌드 및 설치하기.md"
-    },
-    {
-      "basename": "Git init 초기작업",
-      "path": "1.2. Git/Git init 초기작업.md"
     },
     {
       "basename": "2.3. Fedora workstation C++ 개발 환경 setup",

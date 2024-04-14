@@ -8,7 +8,7 @@
 그리고 vimt에 쓸 config 제대로 설정하고.
 
 ## 재설치 목록
-lvm2, reflector, git, curl, gcc, gdb, cmake, make, Neofetch, man-db, paru, zip, gnupg, pv, python, tmux, terminus-font, nouveau, alacritty, bluez, bluez-utils, chrome, neovim, fcitx5, fcitx5-hangle, fcitx5-configtool, fcitx5-qt, fcitx-gtk, ffmpeg,fuse3, obsidian, pbzip, clang, lld, lldb, libc++, ninja, vcpkg, zsh, oh-my-zsh, bat, nerd font, neovide, KDE plasma, rustup, alacritty, rclone, MaruBuri, AppleSDGothic, dotum, xsel, wl-clipboard, veracrpyt, ntfs-3g, base-devel, discord, dolphin, electron, exfat-utils, qt5-wayland, qt6-wayland, sqlite, tree, ttf-d2coding, 
+neovim, lvm2, reflector, git, curl, gcc, gdb, cmake, make, Neofetch, man-db, paru, zip, gnupg, pv, python, tmux, terminus-font, nouveau, alacritty, bluez, bluez-utils, chrome, neovim, fcitx5, fcitx5-hangle, fcitx5-configtool, fcitx5-qt, fcitx-gtk, ffmpeg,fuse3, obsidian, pbzip, clang, lld, lldb, libc++, ninja, vcpkg, zsh, oh-my-zsh, bat, nerd font, neovide, KDE plasma, rustup, alacritty, rclone, MaruBuri, AppleSDGothic, dotum, xsel, wl-clipboard, veracrpyt, ntfs-3g, base-devel, discord, dolphin, electron, exfat-utils, qt5-wayland, qt6-wayland, sqlite, tree, ttf-d2coding, 
 
 ## Neovim config
 ttf-sourcecodepro-nerd, Lazy, mason, mason lsp server, ripgrep, fzf, tree-sitter

@@ -2,6 +2,11 @@
 ```
 setfont ter-u18b.psf.gz
 ```
+### vim-plug
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
 ### grub
 [참고 영상](https://youtu.be/4dKzYmhcGEU?si=UDM5P5LLl-O5477o)
 ```
