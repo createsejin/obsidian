@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "각종 설치 command",
+      "path": "2. Linux/Arch Linux/각종 설치 command.md"
+    },
+    {
+      "basename": "tmux clipboard integration",
+      "path": "2. Linux/tmux clipboard integration.md"
+    },
+    {
+      "basename": "git credential manager",
+      "path": "1.2. Git/git credential manager.md"
+    },
+    {
+      "basename": "기본 설치 계획",
+      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
+    },
+    {
       "basename": "archlinux 재설치 프로젝트",
-      "path": "2. Linux/archlinux 재설치 프로젝트.md"
+      "path": "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md"
+    },
+    {
+      "basename": "tmux conf 적용",
+      "path": "2. Linux/tmux conf 적용.md"
     },
     {
       "basename": "Input method",
       "path": "2. Linux/Input method.md"
+    },
+    {
+      "basename": "Alacritty setup",
+      "path": "2. Linux/Alacritty setup.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.md"
     },
     {
       "basename": "Pasted image 20231026135336",
@@ -65,16 +97,8 @@
       "path": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md"
     },
     {
-      "basename": "tmux clipboard integration",
-      "path": "2. Linux/tmux clipboard integration.md"
-    },
-    {
       "basename": "Wayland에서 Xorg로 다시 바꿈",
       "path": "2. Linux/Wayland에서 Xorg로 다시 바꿈.md"
-    },
-    {
-      "basename": "tmux conf 적용",
-      "path": "2. Linux/tmux conf 적용.md"
     },
     {
       "basename": "2024-03-12 개발환경 이전 작업 - Ubuntu",
@@ -157,10 +181,6 @@
       "path": "2. Linux/storage/3. Python 설치.md"
     },
     {
-      "basename": "git credential manager",
-      "path": "1.2. Git/git credential manager.md"
-    },
-    {
       "basename": "treesitter node name 보는법",
       "path": "3. IDE/neovim/treesitter node name 보는법.md"
     },
@@ -175,30 +195,6 @@
     {
       "basename": "Clion에서 Git remote repository 생성하기",
       "path": "1.2. Git/Clion에서 Git remote repository 생성하기.md"
-    },
-    {
-      "basename": "CXX setup",
-      "path": "1. Rust/CXX setup.md"
-    },
-    {
-      "basename": "Rust fmt",
-      "path": "3. IDE/Rust fmt.md"
-    },
-    {
-      "basename": "veracrypt shell script setup",
-      "path": "2. Linux/storage/veracrypt shell script setup.md"
-    },
-    {
-      "basename": "2. 구독 목록",
-      "path": "1. C++/보관함/2. 구독 목록.md"
-    },
-    {
-      "basename": "Git 기본 명령어 정리",
-      "path": "1.2. Git/Git 기본 명령어 정리.md"
-    },
-    {
-      "basename": "vscode에서 git 사용시 주의할점",
-      "path": "1.2. Git/vscode에서 git 사용시 주의할점.md"
     }
   ],
   "omittedPaths": [],
