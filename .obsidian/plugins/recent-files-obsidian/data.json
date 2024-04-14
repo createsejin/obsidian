@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기",
-      "path": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md"
+      "basename": "archlinux 재설치 프로젝트",
+      "path": "2. Linux/archlinux 재설치 프로젝트.md"
+    },
+    {
+      "basename": "Input method",
+      "path": "2. Linux/Input method.md"
+    },
+    {
+      "basename": "Pasted image 20231026135336",
+      "path": "30. attached file/Pasted image 20231026135336.png"
+    },
+    {
+      "basename": "Pasted image 20231030082055",
+      "path": "30. attached file/Pasted image 20231030082055.png"
+    },
+    {
+      "basename": "Pasted image 20231029121527",
+      "path": "30. attached file/Pasted image 20231029121527.png"
+    },
+    {
+      "basename": "hqdefault",
+      "path": "30. attached file/hqdefault.webp"
+    },
+    {
+      "basename": "2023-10-31 18.42.51",
+      "path": "30. attached file/2023-10-31 18.42.51.jpg"
+    },
+    {
+      "basename": "68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67",
+      "path": "30. attached file/68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67.png"
+    },
+    {
+      "basename": "hand_tool",
+      "path": "30. attached file/hand_tool.png"
+    },
+    {
+      "basename": "noreturn 어트리뷰션",
+      "path": "1. C++/보관함/noreturn 어트리뷰션.md"
     },
     {
       "basename": "2023-11-09-Thu",
       "path": "7. Diary/2023-11-09-Thu.md"
+    },
+    {
+      "basename": "2. Fedora workstation 설치 진행",
+      "path": "2. Linux/storage/2. Fedora workstation 설치 진행.md"
+    },
+    {
+      "basename": "Nouveau screen freezing 해결안1",
+      "path": "2. Linux/Nouveau screen freezing 해결안1.md"
+    },
+    {
+      "basename": "chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기",
+      "path": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md"
     },
     {
       "basename": "2023-10-31-Tue",
@@ -151,54 +199,6 @@
     {
       "basename": "vscode에서 git 사용시 주의할점",
       "path": "1.2. Git/vscode에서 git 사용시 주의할점.md"
-    },
-    {
-      "basename": "branch 전환 및 병합",
-      "path": "1.2. Git/branch 전환 및 병합.md"
-    },
-    {
-      "basename": "Visual Studio 2022 폰트 가독성 향상",
-      "path": "3. IDE/Visual Studio 2022 폰트 가독성 향상.md"
-    },
-    {
-      "basename": "Red Hat 구독 할당하기",
-      "path": "2. Linux/storage/Red Hat 구독 할당하기.md"
-    },
-    {
-      "basename": "2. Fedora workstation 설치 진행",
-      "path": "2. Linux/storage/2. Fedora workstation 설치 진행.md"
-    },
-    {
-      "basename": "OpenCV Rust 빌드 성공",
-      "path": "1. Rust/OpenCV Rust 빌드 성공.md"
-    },
-    {
-      "basename": "Powershell에서 mklink 사용하기",
-      "path": "2.2. Windows/Powershell에서 mklink 사용하기.md"
-    },
-    {
-      "basename": "Remove-Item 명령어",
-      "path": "2.2. Windows/Remove-Item 명령어.md"
-    },
-    {
-      "basename": "Whisper 사용하기",
-      "path": "6.2. note/Whisper 사용하기.md"
-    },
-    {
-      "basename": "1.1. 심볼링 링크, 하드 링크",
-      "path": "2. Linux/storage/1.1. 심볼링 링크, 하드 링크.md"
-    },
-    {
-      "basename": "Red Hat에서 libc++ 빌드 및 설치",
-      "path": "2. Linux/storage/Red Hat에서 libc++ 빌드 및 설치.md"
-    },
-    {
-      "basename": "슈퍼컴 C++ CMake 개발환경 세팅",
-      "path": "3. IDE/슈퍼컴 C++ CMake 개발환경 세팅.md"
-    },
-    {
-      "basename": "Oracle instance client 설치",
-      "path": "1.1. SQL/Oracle instance client 설치.md"
     }
   ],
   "omittedPaths": [],

@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a088d88a606ef6fd",
+        "id": "f611ce318efad1d6",
         "type": "tabs",
         "children": [
           {
-            "id": "567cad341dcc00d2",
+            "id": "2f504749f0071e44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md",
+                "file": "2. Linux/archlinux 재설치 프로젝트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa330114876234cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Linux/Input method.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md",
+                "file": "2. Linux/archlinux 재설치 프로젝트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md",
+                "file": "2. Linux/archlinux 재설치 프로젝트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md"
+                "file": "2. Linux/archlinux 재설치 프로젝트.md"
               }
             }
           },
@@ -155,7 +167,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md"
+                "file": "2. Linux/archlinux 재설치 프로젝트.md"
               }
             }
           }
@@ -178,9 +190,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "567cad341dcc00d2",
+  "active": "2f504749f0071e44",
   "lastOpenFiles": [
+    "2. Linux/Input method.md",
+    "2. Linux/archlinux 재설치 프로젝트.md",
+    "30. attached file/Pasted image 20231026135336.png",
+    "30. attached file/Pasted image 20231030082055.png",
+    "30. attached file/Pasted image 20231029121527.png",
+    "30. attached file/hqdefault.webp",
+    "30. attached file/2023-10-31 18.42.51.jpg",
+    "30. attached file/68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67.png",
+    "30. attached file/hand_tool.png",
+    "1. C++/보관함/noreturn 어트리뷰션.md",
     "7. Diary/2023-11-09-Thu.md",
+    "6. unique_note/2024-04-14-10_17.md",
+    "2. Linux/storage/2. Fedora workstation 설치 진행.md",
+    "6. unique_note",
+    "7.2. Calendar - tasks/2023-11-24 CLion trial end.md",
+    "2. Linux/Nouveau screen freezing 해결안1.md",
     "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md",
     "7. Diary/2023-10-31-Tue.md",
     "2. Linux/Nouveau로 바꾸면서 건든 파일들.md",
@@ -199,13 +226,6 @@
     "2. Linux/storage/Google Cloud Platform.md",
     "2. Linux/storage/Cmake 설치.md",
     "2. Linux/storage/8.1. 바탕화면 바로가기 적용방법.md",
-    "2. Linux/storage/지금까지 linux에 한것들.md",
-    "2. Linux/storage/리눅스 폴더 백업.md",
-    "2. Linux/storage/리눅스 환경 변수 추가하기.md",
-    "2. Linux/WhiteSur-gtk-theme 설치.md",
-    "2. Linux/storage/1. Bash 다루기.md",
-    "2. Linux/7.1. timeshift 백업 위치 바꾸기.md",
-    "2. Linux/storage/2.1. GPG signature verify.md",
     "AppleSDFonts.tar.gz",
     "3. IDE/neovim",
     "1. C++/Neuron Project",
@@ -215,17 +235,9 @@
     "2.2. Windows",
     "1. Rust/개발노트",
     "6.2. note",
-    "30. attached file/main.cpp",
-    "30. attached file/68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67.png",
     "30. attached file/Pasted image 20231109173439.png",
     "5. Obsidian/test/1.1. new canvas.canvas",
     "Pasted image 20231105221842.png",
-    "30. attached file/hqdefault.webp",
-    "30. attached file/2023-10-31 18.42.51.jpg",
-    "img/Screenshot from 2023-10-23 09-31-06.png",
-    "30. attached file/Pasted image 20231030082055.png",
-    "5. Obsidian/0. storage/20121028_112943.jpg",
-    "30. attached file/Pasted image 20231029121527.png",
-    "30. attached file/Pasted image 20231026135336.png"
+    "img/Screenshot from 2023-10-23 09-31-06.png"
   ]
 }
