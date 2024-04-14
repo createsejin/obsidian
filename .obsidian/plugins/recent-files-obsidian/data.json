@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "installation process",
+      "path": "2. Linux/Arch Linux/installation process.md"
+    },
+    {
+      "basename": "archlinux 재설치 프로젝트",
+      "path": "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md"
+    },
+    {
+      "basename": "각종 설치 command",
+      "path": "2. Linux/Arch Linux/각종 설치 command.md"
+    },
+    {
+      "basename": "기본 설치 계획",
+      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
+    },
+    {
       "basename": "Remove-Item 명령어",
       "path": "2.2. Windows/Remove-Item 명령어.md"
+    },
+    {
+      "basename": "Alacritty setup",
+      "path": "2. Linux/Alacritty setup.md"
     },
     {
       "basename": "tmux conf 적용",
@@ -17,20 +37,8 @@
       "path": "2.2. Windows/KB5036893 업데이트 trouble.md"
     },
     {
-      "basename": "기본 설치 계획",
-      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
-    },
-    {
       "basename": "Git init 초기작업",
       "path": "1.2. Git/Git init 초기작업.md"
-    },
-    {
-      "basename": "각종 설치 command",
-      "path": "2. Linux/Arch Linux/각종 설치 command.md"
-    },
-    {
-      "basename": "archlinux 재설치 프로젝트",
-      "path": "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md"
     },
     {
       "basename": "git credential manager",
@@ -39,10 +47,6 @@
     {
       "basename": "Input method",
       "path": "2. Linux/Input method.md"
-    },
-    {
-      "basename": "Alacritty setup",
-      "path": "2. Linux/Alacritty setup.md"
     },
     {
       "basename": "Untitled",
@@ -195,10 +199,6 @@
     {
       "basename": "nvim-treesitter-context 파싱 안되는 현상",
       "path": "3. IDE/neovim/nvim-treesitter-context 파싱 안되는 현상.md"
-    },
-    {
-      "basename": "leetcode002",
-      "path": "1. Rust/leetcode002.md"
     }
   ],
   "omittedPaths": [],
