@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f504749f0071e44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Linux/Alacritty setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4698ae54283ba456",
             "type": "leaf",
             "state": {
@@ -44,6 +32,18 @@
             }
           },
           {
+            "id": "258980005eb97625",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Linux/Arch Linux/각종 설치 command.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f5d4e6f87c48894b",
             "type": "leaf",
             "state": {
@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e8601748f763e7e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.2. Git/Git init 초기작업.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,6 +219,8 @@
   "lastOpenFiles": [
     "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md",
     "2. Linux/Arch Linux/installation process.md",
+    "2. Linux/storage/2024-03-12 개발환경 이전 작업 - Ubuntu.md",
+    "3.1. AI copilot",
     "2. Linux/Arch Linux/각종 설치 command.md",
     "2. Linux/Arch Linux/기본 설치 계획.md",
     "2.2. Windows/Remove-Item 명령어.md",
@@ -263,7 +253,6 @@
     "7. Diary/2023-10-31-Tue.md",
     "2. Linux/Nouveau로 바꾸면서 건든 파일들.md",
     "7. Diary/wishlist/Baffin 혹한기 방한화.md",
-    "2. Linux/Wayland에서 Xorg로 다시 바꿈.md",
     "AppleSDFonts.tar.gz",
     "3. IDE/neovim",
     "1. C++/Neuron Project",
@@ -271,7 +260,6 @@
     "1. C++/Visual Studio",
     "11. etc",
     "2.2. Windows",
-    "1. Rust/개발노트",
     "30. attached file/Pasted image 20231109173439.png",
     "5. Obsidian/test/1.1. new canvas.canvas",
     "Pasted image 20231105221842.png",

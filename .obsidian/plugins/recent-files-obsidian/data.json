@@ -9,6 +9,10 @@
       "path": "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md"
     },
     {
+      "basename": "2024-03-12 개발환경 이전 작업 - Ubuntu",
+      "path": "2. Linux/storage/2024-03-12 개발환경 이전 작업 - Ubuntu.md"
+    },
+    {
       "basename": "각종 설치 command",
       "path": "2. Linux/Arch Linux/각종 설치 command.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "Wayland에서 Xorg로 다시 바꿈",
       "path": "2. Linux/Wayland에서 Xorg로 다시 바꿈.md"
-    },
-    {
-      "basename": "2024-03-12 개발환경 이전 작업 - Ubuntu",
-      "path": "2. Linux/2024-03-12 개발환경 이전 작업 - Ubuntu.md"
     },
     {
       "basename": "linux font 설치",
