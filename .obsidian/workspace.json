@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Linux/Arch Linux/Input method.md",
+                "file": "2. Linux/Arch Linux/각종 설치 command.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5243b037427d8a0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. develop environment/tmux/Tmux essential.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Linux/Arch Linux/Input method.md",
+                "file": "3. develop environment/tmux/Tmux essential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Linux/Arch Linux/Input method.md",
+                "file": "3. develop environment/tmux/Tmux essential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Linux/Arch Linux/Input method.md"
+                "file": "3. develop environment/tmux/Tmux essential.md"
               }
             }
           },
@@ -192,7 +204,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Linux/Arch Linux/Input method.md"
+                "file": "3. develop environment/tmux/Tmux essential.md"
               }
             }
           }
@@ -215,39 +227,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1ad0428560a1e97b",
+  "active": "5243b037427d8a0c",
   "lastOpenFiles": [
-    "2. Linux/Arch Linux/Nouveau로 바꾸면서 건든 파일들.md",
-    "2. Linux/LVM snapshot system rollback process.md",
-    "2. Linux/linux font 설치.md",
-    "2. Linux/Arch Linux/Input method.md",
+    "3. develop environment/tmux/tmux clipboard integration.md",
+    "3. develop environment/Rust fmt.md",
+    "2. Linux/Arch Linux/각종 설치 command.md",
+    "3. develop environment/tmux/tmux url open.md",
+    "3. develop environment/tmux/tmux conf 적용.md",
+    "3. develop environment/tmux/Alacritty setup.md",
+    "3. develop environment/tmux/Tmux Catppuccin color theme.md",
+    "2. Linux/Arch Linux/기본 설치 계획.md",
+    "5. Obsidian/1. MarkDown 문법 총정리판.md",
+    "3. develop environment/tmux/Tmux essential.md",
     "3. develop environment/Visual Studio 2022/Visual Studio 2022 폰트 가독성 향상.md",
+    "2. Linux/Arch Linux/Input method.md",
+    "2. Linux/linux font 설치.md",
+    "2. Linux/LVM snapshot system rollback process.md",
+    "2. Linux/Arch Linux/Nouveau로 바꾸면서 건든 파일들.md",
     "3. develop environment/VS Code/VSCode C++ windows 개발환경 세팅.md",
     "3. develop environment/CLion/명령 프롬프트 마지막 cout의 space가 삭제되는 현상 fix.md",
     "3. develop environment/VS Code",
-    "3. develop environment/Rust fmt.md",
     "3. develop environment/CLion/슈퍼컴 C++ CMake 개발환경 세팅.md",
     "3. develop environment/CLion/CLion Debug break point 안먹히는 현상 해결법.md",
     "3. develop environment/Visual Studio 2022/VS 2022 trailing return type space removing 현상.md",
     "3. develop environment/CLion",
-    "3. develop environment/tmux/Tmux key binding.md",
     "3. develop environment/Visual Studio 2022",
     "2. Linux/storage/Nouveau screen freezing 해결안1.md",
     "3. develop environment/tmux/oh my zsh ls 기본 설정.md",
-    "3. develop environment/tmux/tmux clipboard integration.md",
-    "3. develop environment/tmux/tmux conf 적용.md",
     "3. develop environment/tmux",
-    "2. Linux/Arch Linux/각종 설치 command.md",
     "2. Linux/Arch Linux/installation process.md",
-    "2. Linux/Arch Linux/기본 설치 계획.md",
     "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md",
     "2. Linux/storage/2024-03-12 개발환경 이전 작업 - Ubuntu.md",
     "3.1. AI copilot",
     "2.2. Windows/Remove-Item 명령어.md",
-    "3. develop environment/tmux/Alacritty setup.md",
-    "2.2. Windows/KB5036893 업데이트 trouble.md",
-    "1.2. Git/Git init 초기작업.md",
-    "1.2. Git/git credential manager.md",
     "2. Linux/Arch Linux",
     "30. attached file/Pasted image 20231026135336.png",
     "30. attached file/Pasted image 20231030082055.png",

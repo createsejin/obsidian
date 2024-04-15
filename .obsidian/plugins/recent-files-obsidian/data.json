@@ -1,24 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "Tmux essential",
+      "path": "3. develop environment/tmux/Tmux essential.md"
+    },
+    {
+      "basename": "tmux clipboard integration",
+      "path": "3. develop environment/tmux/tmux clipboard integration.md"
+    },
+    {
+      "basename": "Rust fmt",
+      "path": "3. develop environment/Rust fmt.md"
+    },
+    {
+      "basename": "각종 설치 command",
+      "path": "2. Linux/Arch Linux/각종 설치 command.md"
+    },
+    {
+      "basename": "tmux url open",
+      "path": "3. develop environment/tmux/tmux url open.md"
+    },
+    {
+      "basename": "tmux conf 적용",
+      "path": "3. develop environment/tmux/tmux conf 적용.md"
+    },
+    {
+      "basename": "Alacritty setup",
+      "path": "3. develop environment/tmux/Alacritty setup.md"
+    },
+    {
+      "basename": "Tmux Catppuccin color theme",
+      "path": "3. develop environment/tmux/Tmux Catppuccin color theme.md"
+    },
+    {
+      "basename": "기본 설치 계획",
+      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
+    },
+    {
+      "basename": "1. MarkDown 문법 총정리판",
+      "path": "5. Obsidian/1. MarkDown 문법 총정리판.md"
+    },
+    {
+      "basename": "Visual Studio 2022 폰트 가독성 향상",
+      "path": "3. develop environment/Visual Studio 2022/Visual Studio 2022 폰트 가독성 향상.md"
+    },
+    {
       "basename": "Input method",
       "path": "2. Linux/Arch Linux/Input method.md"
-    },
-    {
-      "basename": "Nouveau로 바꾸면서 건든 파일들",
-      "path": "2. Linux/Arch Linux/Nouveau로 바꾸면서 건든 파일들.md"
-    },
-    {
-      "basename": "LVM snapshot system rollback process",
-      "path": "2. Linux/LVM snapshot system rollback process.md"
     },
     {
       "basename": "linux font 설치",
       "path": "2. Linux/linux font 설치.md"
     },
     {
-      "basename": "Visual Studio 2022 폰트 가독성 향상",
-      "path": "3. develop environment/Visual Studio 2022/Visual Studio 2022 폰트 가독성 향상.md"
+      "basename": "LVM snapshot system rollback process",
+      "path": "2. Linux/LVM snapshot system rollback process.md"
+    },
+    {
+      "basename": "Nouveau로 바꾸면서 건든 파일들",
+      "path": "2. Linux/Arch Linux/Nouveau로 바꾸면서 건든 파일들.md"
     },
     {
       "basename": "VSCode C++ windows 개발환경 세팅",
@@ -27,10 +67,6 @@
     {
       "basename": "명령 프롬프트 마지막 cout의 space가 삭제되는 현상 fix",
       "path": "3. develop environment/CLion/명령 프롬프트 마지막 cout의 space가 삭제되는 현상 fix.md"
-    },
-    {
-      "basename": "Rust fmt",
-      "path": "3. develop environment/Rust fmt.md"
     },
     {
       "basename": "슈퍼컴 C++ CMake 개발환경 세팅",
@@ -45,10 +81,6 @@
       "path": "3. develop environment/Visual Studio 2022/VS 2022 trailing return type space removing 현상.md"
     },
     {
-      "basename": "Tmux key binding",
-      "path": "3. develop environment/tmux/Tmux key binding.md"
-    },
-    {
       "basename": "Nouveau screen freezing 해결안1",
       "path": "2. Linux/storage/Nouveau screen freezing 해결안1.md"
     },
@@ -57,24 +89,8 @@
       "path": "3. develop environment/tmux/oh my zsh ls 기본 설정.md"
     },
     {
-      "basename": "tmux clipboard integration",
-      "path": "3. develop environment/tmux/tmux clipboard integration.md"
-    },
-    {
-      "basename": "tmux conf 적용",
-      "path": "3. develop environment/tmux/tmux conf 적용.md"
-    },
-    {
-      "basename": "각종 설치 command",
-      "path": "2. Linux/Arch Linux/각종 설치 command.md"
-    },
-    {
       "basename": "installation process",
       "path": "2. Linux/Arch Linux/installation process.md"
-    },
-    {
-      "basename": "기본 설치 계획",
-      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
     },
     {
       "basename": "archlinux 재설치 프로젝트",
@@ -87,10 +103,6 @@
     {
       "basename": "Remove-Item 명령어",
       "path": "2.2. Windows/Remove-Item 명령어.md"
-    },
-    {
-      "basename": "Alacritty setup",
-      "path": "3. develop environment/tmux/Alacritty setup.md"
     },
     {
       "basename": "KB5036893 업데이트 trouble",
@@ -187,18 +199,6 @@
     {
       "basename": "Cmake 설치",
       "path": "2. Linux/storage/Cmake 설치.md"
-    },
-    {
-      "basename": "8.1. 바탕화면 바로가기 적용방법",
-      "path": "2. Linux/storage/8.1. 바탕화면 바로가기 적용방법.md"
-    },
-    {
-      "basename": "지금까지 linux에 한것들",
-      "path": "2. Linux/storage/지금까지 linux에 한것들.md"
-    },
-    {
-      "basename": "리눅스 폴더 백업",
-      "path": "2. Linux/storage/리눅스 폴더 백업.md"
     }
   ],
   "omittedPaths": [],
