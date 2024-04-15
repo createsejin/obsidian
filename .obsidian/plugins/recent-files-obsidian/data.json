@@ -1,8 +1,80 @@
 {
   "recentFiles": [
     {
+      "basename": "Input method",
+      "path": "2. Linux/Arch Linux/Input method.md"
+    },
+    {
+      "basename": "Nouveau로 바꾸면서 건든 파일들",
+      "path": "2. Linux/Arch Linux/Nouveau로 바꾸면서 건든 파일들.md"
+    },
+    {
+      "basename": "LVM snapshot system rollback process",
+      "path": "2. Linux/LVM snapshot system rollback process.md"
+    },
+    {
+      "basename": "linux font 설치",
+      "path": "2. Linux/linux font 설치.md"
+    },
+    {
+      "basename": "Visual Studio 2022 폰트 가독성 향상",
+      "path": "3. develop environment/Visual Studio 2022/Visual Studio 2022 폰트 가독성 향상.md"
+    },
+    {
+      "basename": "VSCode C++ windows 개발환경 세팅",
+      "path": "3. develop environment/VS Code/VSCode C++ windows 개발환경 세팅.md"
+    },
+    {
+      "basename": "명령 프롬프트 마지막 cout의 space가 삭제되는 현상 fix",
+      "path": "3. develop environment/CLion/명령 프롬프트 마지막 cout의 space가 삭제되는 현상 fix.md"
+    },
+    {
+      "basename": "Rust fmt",
+      "path": "3. develop environment/Rust fmt.md"
+    },
+    {
+      "basename": "슈퍼컴 C++ CMake 개발환경 세팅",
+      "path": "3. develop environment/CLion/슈퍼컴 C++ CMake 개발환경 세팅.md"
+    },
+    {
+      "basename": "CLion Debug break point 안먹히는 현상 해결법",
+      "path": "3. develop environment/CLion/CLion Debug break point 안먹히는 현상 해결법.md"
+    },
+    {
+      "basename": "VS 2022 trailing return type space removing 현상",
+      "path": "3. develop environment/Visual Studio 2022/VS 2022 trailing return type space removing 현상.md"
+    },
+    {
+      "basename": "Tmux key binding",
+      "path": "3. develop environment/tmux/Tmux key binding.md"
+    },
+    {
+      "basename": "Nouveau screen freezing 해결안1",
+      "path": "2. Linux/storage/Nouveau screen freezing 해결안1.md"
+    },
+    {
+      "basename": "oh my zsh ls 기본 설정",
+      "path": "3. develop environment/tmux/oh my zsh ls 기본 설정.md"
+    },
+    {
+      "basename": "tmux clipboard integration",
+      "path": "3. develop environment/tmux/tmux clipboard integration.md"
+    },
+    {
+      "basename": "tmux conf 적용",
+      "path": "3. develop environment/tmux/tmux conf 적용.md"
+    },
+    {
+      "basename": "각종 설치 command",
+      "path": "2. Linux/Arch Linux/각종 설치 command.md"
+    },
+    {
       "basename": "installation process",
       "path": "2. Linux/Arch Linux/installation process.md"
+    },
+    {
+      "basename": "기본 설치 계획",
+      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
     },
     {
       "basename": "archlinux 재설치 프로젝트",
@@ -13,28 +85,12 @@
       "path": "2. Linux/storage/2024-03-12 개발환경 이전 작업 - Ubuntu.md"
     },
     {
-      "basename": "각종 설치 command",
-      "path": "2. Linux/Arch Linux/각종 설치 command.md"
-    },
-    {
-      "basename": "기본 설치 계획",
-      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
-    },
-    {
       "basename": "Remove-Item 명령어",
       "path": "2.2. Windows/Remove-Item 명령어.md"
     },
     {
       "basename": "Alacritty setup",
-      "path": "2. Linux/Alacritty setup.md"
-    },
-    {
-      "basename": "tmux conf 적용",
-      "path": "2. Linux/tmux conf 적용.md"
-    },
-    {
-      "basename": "tmux clipboard integration",
-      "path": "2. Linux/tmux clipboard integration.md"
+      "path": "3. develop environment/tmux/Alacritty setup.md"
     },
     {
       "basename": "KB5036893 업데이트 trouble",
@@ -47,10 +103,6 @@
     {
       "basename": "git credential manager",
       "path": "1.2. Git/git credential manager.md"
-    },
-    {
-      "basename": "Input method",
-      "path": "2. Linux/Input method.md"
     },
     {
       "basename": "Untitled",
@@ -101,10 +153,6 @@
       "path": "2. Linux/storage/2. Fedora workstation 설치 진행.md"
     },
     {
-      "basename": "Nouveau screen freezing 해결안1",
-      "path": "2. Linux/Nouveau screen freezing 해결안1.md"
-    },
-    {
       "basename": "chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기",
       "path": "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md"
     },
@@ -113,16 +161,8 @@
       "path": "7. Diary/2023-10-31-Tue.md"
     },
     {
-      "basename": "Nouveau로 바꾸면서 건든 파일들",
-      "path": "2. Linux/Nouveau로 바꾸면서 건든 파일들.md"
-    },
-    {
       "basename": "Wayland에서 Xorg로 다시 바꿈",
-      "path": "2. Linux/Wayland에서 Xorg로 다시 바꿈.md"
-    },
-    {
-      "basename": "linux font 설치",
-      "path": "2. Linux/linux font 설치.md"
+      "path": "2. Linux/Arch Linux/Wayland에서 Xorg로 다시 바꿈.md"
     },
     {
       "basename": "원하는 폰트 찾기",
@@ -135,14 +175,6 @@
     {
       "basename": "상대 경로 찾기",
       "path": "2. Linux/상대 경로 찾기.md"
-    },
-    {
-      "basename": "oh my zsh ls 기본 설정",
-      "path": "2. Linux/oh my zsh ls 기본 설정.md"
-    },
-    {
-      "basename": "LVM snapshot system rollback process",
-      "path": "2. Linux/LVM snapshot system rollback process.md"
     },
     {
       "basename": "34. GNU Coreutils",
@@ -167,38 +199,6 @@
     {
       "basename": "리눅스 폴더 백업",
       "path": "2. Linux/storage/리눅스 폴더 백업.md"
-    },
-    {
-      "basename": "리눅스 환경 변수 추가하기",
-      "path": "2. Linux/storage/리눅스 환경 변수 추가하기.md"
-    },
-    {
-      "basename": "1. Bash 다루기",
-      "path": "2. Linux/storage/1. Bash 다루기.md"
-    },
-    {
-      "basename": "2.1. GPG signature verify",
-      "path": "2. Linux/storage/2.1. GPG signature verify.md"
-    },
-    {
-      "basename": "Red Hat LLVM 빌드 및 설치하기",
-      "path": "2. Linux/storage/Red Hat LLVM 빌드 및 설치하기.md"
-    },
-    {
-      "basename": "2.3. Fedora workstation C++ 개발 환경 setup",
-      "path": "2. Linux/storage/2.3. Fedora workstation C++ 개발 환경 setup.md"
-    },
-    {
-      "basename": "3. Python 설치",
-      "path": "2. Linux/storage/3. Python 설치.md"
-    },
-    {
-      "basename": "treesitter node name 보는법",
-      "path": "3. IDE/neovim/treesitter node name 보는법.md"
-    },
-    {
-      "basename": "nvim-treesitter-context 파싱 안되는 현상",
-      "path": "3. IDE/neovim/nvim-treesitter-context 파싱 안되는 현상.md"
     }
   ],
   "omittedPaths": [],

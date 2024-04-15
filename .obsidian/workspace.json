@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "2. Linux/Arch Linux/installation process.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Linux/Arch Linux/각종 설치 command.md",
+                "file": "2. Linux/Arch Linux/Input method.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Linux/Arch Linux/installation process.md",
+                "file": "2. Linux/Arch Linux/Input method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Linux/Arch Linux/installation process.md",
+                "file": "2. Linux/Arch Linux/Input method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Linux/Arch Linux/installation process.md"
+                "file": "2. Linux/Arch Linux/Input method.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2. Linux/Arch Linux/installation process.md"
+                "file": "2. Linux/Arch Linux/Input method.md"
               }
             }
           }
@@ -215,25 +215,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8b4ff47172c54045",
+  "active": "1ad0428560a1e97b",
   "lastOpenFiles": [
-    "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md",
+    "2. Linux/Arch Linux/Nouveau로 바꾸면서 건든 파일들.md",
+    "2. Linux/LVM snapshot system rollback process.md",
+    "2. Linux/linux font 설치.md",
+    "2. Linux/Arch Linux/Input method.md",
+    "3. develop environment/Visual Studio 2022/Visual Studio 2022 폰트 가독성 향상.md",
+    "3. develop environment/VS Code/VSCode C++ windows 개발환경 세팅.md",
+    "3. develop environment/CLion/명령 프롬프트 마지막 cout의 space가 삭제되는 현상 fix.md",
+    "3. develop environment/VS Code",
+    "3. develop environment/Rust fmt.md",
+    "3. develop environment/CLion/슈퍼컴 C++ CMake 개발환경 세팅.md",
+    "3. develop environment/CLion/CLion Debug break point 안먹히는 현상 해결법.md",
+    "3. develop environment/Visual Studio 2022/VS 2022 trailing return type space removing 현상.md",
+    "3. develop environment/CLion",
+    "3. develop environment/tmux/Tmux key binding.md",
+    "3. develop environment/Visual Studio 2022",
+    "2. Linux/storage/Nouveau screen freezing 해결안1.md",
+    "3. develop environment/tmux/oh my zsh ls 기본 설정.md",
+    "3. develop environment/tmux/tmux clipboard integration.md",
+    "3. develop environment/tmux/tmux conf 적용.md",
+    "3. develop environment/tmux",
+    "2. Linux/Arch Linux/각종 설치 command.md",
     "2. Linux/Arch Linux/installation process.md",
+    "2. Linux/Arch Linux/기본 설치 계획.md",
+    "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md",
     "2. Linux/storage/2024-03-12 개발환경 이전 작업 - Ubuntu.md",
     "3.1. AI copilot",
-    "2. Linux/Arch Linux/각종 설치 command.md",
-    "2. Linux/Arch Linux/기본 설치 계획.md",
     "2.2. Windows/Remove-Item 명령어.md",
-    "2. Linux/Alacritty setup.md",
-    "2. Linux/tmux conf 적용.md",
-    "2. Linux/tmux clipboard integration.md",
+    "3. develop environment/tmux/Alacritty setup.md",
     "2.2. Windows/KB5036893 업데이트 trouble.md",
     "1.2. Git/Git init 초기작업.md",
     "1.2. Git/git credential manager.md",
-    "2. Linux/Input method.md",
-    "6. unique_note/2024-04-14-13_54.md",
-    "Untitled.md",
-    "Untitled 1.md",
     "2. Linux/Arch Linux",
     "30. attached file/Pasted image 20231026135336.png",
     "30. attached file/Pasted image 20231030082055.png",
@@ -242,24 +256,10 @@
     "30. attached file/2023-10-31 18.42.51.jpg",
     "30. attached file/68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67.png",
     "30. attached file/hand_tool.png",
-    "1. C++/보관함/noreturn 어트리뷰션.md",
-    "7. Diary/2023-11-09-Thu.md",
-    "6. unique_note/2024-04-14-10_17.md",
-    "2. Linux/storage/2. Fedora workstation 설치 진행.md",
     "6. unique_note",
-    "7.2. Calendar - tasks/2023-11-24 CLion trial end.md",
-    "2. Linux/Nouveau screen freezing 해결안1.md",
-    "2. Linux/chrome에서 MS Copilot 턴 횟수 5회 -> 30회로 바꾸기.md",
-    "7. Diary/2023-10-31-Tue.md",
-    "2. Linux/Nouveau로 바꾸면서 건든 파일들.md",
-    "7. Diary/wishlist/Baffin 혹한기 방한화.md",
     "AppleSDFonts.tar.gz",
-    "3. IDE/neovim",
+    "3. develop environment/neovim",
     "1. C++/Neuron Project",
-    "3. IDE",
-    "1. C++/Visual Studio",
-    "11. etc",
-    "2.2. Windows",
     "30. attached file/Pasted image 20231109173439.png",
     "5. Obsidian/test/1.1. new canvas.canvas",
     "Pasted image 20231105221842.png",
