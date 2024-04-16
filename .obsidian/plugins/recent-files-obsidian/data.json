@@ -1,28 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Tmux essential",
-      "path": "3. develop environment/tmux/Tmux essential.md"
-    },
-    {
       "basename": "tmux clipboard integration",
       "path": "3. develop environment/tmux/tmux clipboard integration.md"
     },
     {
-      "basename": "Rust fmt",
-      "path": "3. develop environment/Rust fmt.md"
+      "basename": "tmux conf 적용",
+      "path": "3. develop environment/tmux/tmux conf 적용.md"
+    },
+    {
+      "basename": "심볼링 링크, 하드 링크",
+      "path": "2. Linux/심볼링 링크, 하드 링크.md"
+    },
+    {
+      "basename": "Git repo 안에 또다른 Git repo Submodule 추가하기",
+      "path": "1.2. Git/Git repo 안에 또다른 Git repo Submodule 추가하기.md"
+    },
+    {
+      "basename": "상대 경로 찾기",
+      "path": "2. Linux/상대 경로 찾기.md"
+    },
+    {
+      "basename": "Reformat_sub",
+      "path": "1. Rust/개발노트/Reformat_sub.md"
+    },
+    {
+      "basename": "installation process",
+      "path": "2. Linux/Arch Linux/installation process.md"
+    },
+    {
+      "basename": "Full system backup",
+      "path": "2. Linux/Arch Linux/Full system backup.md"
+    },
+    {
+      "basename": "Nouveau로 바꾸면서 건든 파일들",
+      "path": "2. Linux/Arch Linux/storage/Nouveau로 바꾸면서 건든 파일들.md"
+    },
+    {
+      "basename": "Wayland에서 Xorg로 다시 바꿈",
+      "path": "2. Linux/Arch Linux/storage/Wayland에서 Xorg로 다시 바꿈.md"
     },
     {
       "basename": "각종 설치 command",
       "path": "2. Linux/Arch Linux/각종 설치 command.md"
     },
     {
-      "basename": "tmux url open",
-      "path": "3. develop environment/tmux/tmux url open.md"
+      "basename": "diff view 사용방법",
+      "path": "3. develop environment/neovim/diff view 사용방법.md"
     },
     {
-      "basename": "tmux conf 적용",
-      "path": "3. develop environment/tmux/tmux conf 적용.md"
+      "basename": "기본 설치 계획",
+      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
+    },
+    {
+      "basename": "nvim-treesitter-context 파싱 안되는 현상",
+      "path": "3. develop environment/neovim/nvim-treesitter-context 파싱 안되는 현상.md"
+    },
+    {
+      "basename": "Android에서 Tmux 쓰는법",
+      "path": "3. develop environment/tmux/Android에서 Tmux 쓰는법.md"
+    },
+    {
+      "basename": "Tmux essential",
+      "path": "3. develop environment/tmux/Tmux essential.md"
+    },
+    {
+      "basename": "Rust fmt",
+      "path": "3. develop environment/Rust fmt.md"
+    },
+    {
+      "basename": "tmux url open",
+      "path": "3. develop environment/tmux/tmux url open.md"
     },
     {
       "basename": "Alacritty setup",
@@ -31,10 +79,6 @@
     {
       "basename": "Tmux Catppuccin color theme",
       "path": "3. develop environment/tmux/Tmux Catppuccin color theme.md"
-    },
-    {
-      "basename": "기본 설치 계획",
-      "path": "2. Linux/Arch Linux/기본 설치 계획.md"
     },
     {
       "basename": "1. MarkDown 문법 총정리판",
@@ -55,10 +99,6 @@
     {
       "basename": "LVM snapshot system rollback process",
       "path": "2. Linux/LVM snapshot system rollback process.md"
-    },
-    {
-      "basename": "Nouveau로 바꾸면서 건든 파일들",
-      "path": "2. Linux/Arch Linux/Nouveau로 바꾸면서 건든 파일들.md"
     },
     {
       "basename": "VSCode C++ windows 개발환경 세팅",
@@ -89,10 +129,6 @@
       "path": "3. develop environment/tmux/oh my zsh ls 기본 설정.md"
     },
     {
-      "basename": "installation process",
-      "path": "2. Linux/Arch Linux/installation process.md"
-    },
-    {
       "basename": "archlinux 재설치 프로젝트",
       "path": "2. Linux/Arch Linux/archlinux 재설치 프로젝트.md"
     },
@@ -115,14 +151,6 @@
     {
       "basename": "git credential manager",
       "path": "1.2. Git/git credential manager.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.md"
     },
     {
       "basename": "Pasted image 20231026135336",
@@ -171,34 +199,6 @@
     {
       "basename": "2023-10-31-Tue",
       "path": "7. Diary/2023-10-31-Tue.md"
-    },
-    {
-      "basename": "Wayland에서 Xorg로 다시 바꿈",
-      "path": "2. Linux/Arch Linux/Wayland에서 Xorg로 다시 바꿈.md"
-    },
-    {
-      "basename": "원하는 폰트 찾기",
-      "path": "2. Linux/storage/원하는 폰트 찾기.md"
-    },
-    {
-      "basename": "압축 파일 압축 해제",
-      "path": "2. Linux/storage/압축 파일 압축 해제.md"
-    },
-    {
-      "basename": "상대 경로 찾기",
-      "path": "2. Linux/상대 경로 찾기.md"
-    },
-    {
-      "basename": "34. GNU Coreutils",
-      "path": "2. Linux/storage/34. GNU Coreutils.md"
-    },
-    {
-      "basename": "Google Cloud Platform",
-      "path": "2. Linux/storage/Google Cloud Platform.md"
-    },
-    {
-      "basename": "Cmake 설치",
-      "path": "2. Linux/storage/Cmake 설치.md"
     }
   ],
   "omittedPaths": [],
