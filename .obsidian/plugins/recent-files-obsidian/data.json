@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2. 구독 목록",
-      "path": "1. C++/보관함/2. 구독 목록.md"
+      "basename": "Android termux를 이용한 git 사용하기",
+      "path": "1.2. Git/Android termux를 이용한 git 사용하기.md"
     },
     {
       "basename": "vim argment list tip and trick",
       "path": "3. develop environment/neovim/vim argment list tip and trick.md"
+    },
+    {
+      "basename": "2. 구독 목록",
+      "path": "1. C++/보관함/2. 구독 목록.md"
     },
     {
       "basename": "text internet browsing",
@@ -195,10 +199,6 @@
     {
       "basename": "hqdefault",
       "path": "30. attached file/hqdefault.webp"
-    },
-    {
-      "basename": "2023-10-31 18.42.51",
-      "path": "30. attached file/2023-10-31 18.42.51.jpg"
     }
   ],
   "omittedPaths": [],
