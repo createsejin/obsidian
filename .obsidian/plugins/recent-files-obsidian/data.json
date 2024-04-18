@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "branch 전환 및 병합",
+      "path": "1.2. Git/branch 전환 및 병합.md"
+    },
+    {
+      "basename": "Git 기본 명령어 정리",
+      "path": "1.2. Git/Git 기본 명령어 정리.md"
+    },
+    {
+      "basename": "Clion에서 Git repository 복제하기",
+      "path": "1.2. Git/Clion에서 Git repository 복제하기.md"
+    },
+    {
+      "basename": "Clion에서 Git remote repository 생성하기",
+      "path": "1.2. Git/Clion에서 Git remote repository 생성하기.md"
+    },
+    {
+      "basename": "git credential manager",
+      "path": "1.2. Git/git credential manager.md"
+    },
+    {
+      "basename": "Git repository에서 파일 및 폴더 제거하기",
+      "path": "1.2. Git/Git repository에서 파일 및 폴더 제거하기.md"
+    },
+    {
+      "basename": "Git repo 안에 또다른 Git repo Submodule 추가하기",
+      "path": "1.2. Git/Git repo 안에 또다른 Git repo Submodule 추가하기.md"
+    },
+    {
       "basename": "vim argment list tip and trick",
       "path": "3. develop environment/neovim/vim argment list tip and trick.md"
+    },
+    {
+      "basename": "shell syntax highlighting and autocompl",
+      "path": "3. develop environment/tmux/shell syntax highlighting and autocompl.md"
     },
     {
       "basename": "text internet browsing",
@@ -11,22 +43,6 @@
     {
       "basename": "zsh git plugin 정리",
       "path": "1.2. Git/zsh git plugin 정리.md"
-    },
-    {
-      "basename": "Clion에서 Git remote repository 생성하기",
-      "path": "1.2. Git/Clion에서 Git remote repository 생성하기.md"
-    },
-    {
-      "basename": "Git repo 안에 또다른 Git repo Submodule 추가하기",
-      "path": "1.2. Git/Git repo 안에 또다른 Git repo Submodule 추가하기.md"
-    },
-    {
-      "basename": "branch 전환 및 병합",
-      "path": "1.2. Git/branch 전환 및 병합.md"
-    },
-    {
-      "basename": "Git 기본 명령어 정리",
-      "path": "1.2. Git/Git 기본 명령어 정리.md"
     },
     {
       "basename": "tmux clipboard integration",
@@ -173,10 +189,6 @@
       "path": "1.2. Git/Git init 초기작업.md"
     },
     {
-      "basename": "git credential manager",
-      "path": "1.2. Git/git credential manager.md"
-    },
-    {
       "basename": "Pasted image 20231026135336",
       "path": "30. attached file/Pasted image 20231026135336.png"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Pasted image 20231029121527",
       "path": "30. attached file/Pasted image 20231029121527.png"
-    },
-    {
-      "basename": "hqdefault",
-      "path": "30. attached file/hqdefault.webp"
-    },
-    {
-      "basename": "2023-10-31 18.42.51",
-      "path": "30. attached file/2023-10-31 18.42.51.jpg"
-    },
-    {
-      "basename": "68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67",
-      "path": "30. attached file/68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67.png"
     }
   ],
   "omittedPaths": [],

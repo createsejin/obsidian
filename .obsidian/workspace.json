@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. develop environment/neovim/vim argment list tip and trick.md",
+                "file": "1.2. Git/branch 전환 및 병합.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. develop environment/neovim/vim argment list tip and trick.md",
+                "file": "1.2. Git/branch 전환 및 병합.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. develop environment/neovim/vim argment list tip and trick.md",
+                "file": "1.2. Git/branch 전환 및 병합.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. develop environment/neovim/vim argment list tip and trick.md"
+                "file": "1.2. Git/branch 전환 및 병합.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "3. develop environment/neovim/vim argment list tip and trick.md"
+                "file": "1.2. Git/branch 전환 및 병합.md"
               }
             }
           }
@@ -217,13 +217,17 @@
   },
   "active": "8b4ff47172c54045",
   "lastOpenFiles": [
-    "2. Linux/text internet browsing.md",
-    "3. develop environment/neovim/vim argment list tip and trick.md",
-    "1.2. Git/zsh git plugin 정리.md",
-    "1.2. Git/Clion에서 Git remote repository 생성하기.md",
-    "1.2. Git/Git repo 안에 또다른 Git repo Submodule 추가하기.md",
-    "1.2. Git/branch 전환 및 병합.md",
     "1.2. Git/Git 기본 명령어 정리.md",
+    "1.2. Git/Clion에서 Git repository 복제하기.md",
+    "1.2. Git/Clion에서 Git remote repository 생성하기.md",
+    "1.2. Git/git credential manager.md",
+    "1.2. Git/Git repository에서 파일 및 폴더 제거하기.md",
+    "1.2. Git/Git repo 안에 또다른 Git repo Submodule 추가하기.md",
+    "3. develop environment/neovim/vim argment list tip and trick.md",
+    "3. develop environment/tmux/shell syntax highlighting and autocompl.md",
+    "2. Linux/text internet browsing.md",
+    "1.2. Git/zsh git plugin 정리.md",
+    "1.2. Git/branch 전환 및 병합.md",
     "3. develop environment/tmux/tmux clipboard integration.md",
     "3. develop environment/tmux/tmux conf 적용.md",
     "2. Linux/심볼링 링크, 하드 링크.md",
@@ -241,10 +245,6 @@
     "3. develop environment/neovim/diff view 사용방법.md",
     "2. Linux/Arch Linux/기본 설치 계획.md",
     "3. develop environment/neovim/nvim-treesitter-context 파싱 안되는 현상.md",
-    "3. develop environment/tmux/Android에서 Tmux 쓰는법.md",
-    "3. develop environment/tmux/Tmux essential.md",
-    "3. develop environment/Rust fmt.md",
-    "3. develop environment/tmux/tmux url open.md",
     "3. develop environment/VS Code",
     "3. develop environment/CLion",
     "3. develop environment/Visual Studio 2022",

@@ -12,3 +12,7 @@
 
 또한 Obsession과 같은 자동 session 저장 plugin을 이용하면 현재 모든 tab들의 argument list를 항상 자동으로 저장해준다. 그리고 Obsession의 장점은 같은 세션을 여러 독립적인 vim instance들로 같이 사용해도 문제없이 저장된다는것. 그러나 주의할점은 항상 가장 마지막에 종료한 vim session의 상태가 마지막으로 기록된다는 것이다. 예를 들어서 같은 session 파일로 연 vim instance가 3개이고 1번 2번 3번이라고 할때 1번에서 여러 작업을 하고 2번에서 여러작업을 하고 3번에서 또 여러작업, 이때 서로 다 다른 작업을 했을때 1, 2, 3 으로 닫았을때 실제로 저장되는 세션은 마지막으로 닫은 3번 session이 저장된다.
 그러므로 같은 workspace에서 여러 독립적 인스턴스의 vim을 운용하려면 서로 다른 session 파일을 만들어서 recording 해야한다는 것이다. 이렇게 하면 서로 다른 인스턴스들의 모든 세션이 자동으로 저장된다. Obsession plugin은 이것이 가능하다. 또한 Obsession의 최대 장점은 tmux 위에서 nvim을 사용할때 발휘되는데, tmux에서 세션을 저장하면 tmux 안에서 연 nvim의 세션까지 모두 자동으로 복원해준다는 것이다. 이것은 아주아주 강력한 기능이다.
+
+## Obsession을 다시 load할때 주의할점
+안타깝게도 Obsession을 이용해서 다시 vim session을 load할때에는 기존 session에서 서로 같은 argument를 공유했던 window들이 각각의 독립된 argument list를 가지도록 loading된다는 점이다.
+예를 들면 1번 tab에서 1번 2번 window가 서로 같은 local argument list를 가지도록 공유했다면 이 세션을 닫고 다시 열게 되면 1번 탭의 1번과 2번 window는 argument list 내용은 같지만 더이상 서로 공유되는 argument list가 아니게 된다. 즉 2번 window에서 새로운 argument를 추가하면 1번에 추가되지 않는다. 따라서 세션을 다시 로드할때에는 안타깝지만 창이 분리되어 있다면 `<C-w>o`로 한 window만 남긴 상태에서 다시 창을 분리해야한다는 것이다.
