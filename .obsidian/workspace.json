@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "1.2. Git/Android termux를 이용한 git 사용하기.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -217,8 +217,9 @@
   },
   "active": "8b4ff47172c54045",
   "lastOpenFiles": [
-    "3. develop environment/neovim/vim argment list tip and trick.md",
+    "1.2. Git/Android에서 termux로 git ssh를 이용해서 인증하기.md",
     "1.2. Git/Android termux를 이용한 git 사용하기.md",
+    "3. develop environment/neovim/vim argment list tip and trick.md",
     "2. Linux/text internet browsing.md",
     "1.2. Git/zsh git plugin 정리.md",
     "1.2. Git/Clion에서 Git remote repository 생성하기.md",
@@ -244,7 +245,6 @@
     "3. develop environment/neovim/nvim-treesitter-context 파싱 안되는 현상.md",
     "3. develop environment/tmux/Android에서 Tmux 쓰는법.md",
     "3. develop environment/tmux/Tmux essential.md",
-    "3. develop environment/Rust fmt.md",
     "3. develop environment/VS Code",
     "3. develop environment/CLion",
     "3. develop environment/Visual Studio 2022",

@@ -14,3 +14,11 @@ https://f-droid.org/ko/packages/com.termux/ 에서 termux apk를 휴대폰에 �
 다음 명령어를 통해 git을 설치할 수 있다.
 `pkg install git`
 
+그런데 git push를 하다보면 
+`fatal: the remote end hung up unexpectly Everting up-to-date`에러가 뜰 수 있다.
+이럴때에는 git 프로토콜의 버퍼 크기를 변경해주면 된다.
+```
+git config http.postBuffer 524288000 # 또는
+git config ssh.postBuffer 524288000 # SSH 프로토콜 사용시
+```
+아직 git credential 부분이 안되어 있어서 조금 불편하긴 하지만 [[Android에서 termux로 git ssh를 이용해서 인증하기|방법]]은 있을 것 같다.

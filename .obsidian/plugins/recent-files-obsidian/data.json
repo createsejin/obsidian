@@ -5,6 +5,10 @@
       "path": "1.2. Git/Android termux를 이용한 git 사용하기.md"
     },
     {
+      "basename": "Android에서 termux로 git ssh를 이용해서 인증하기",
+      "path": "1.2. Git/Android에서 termux로 git ssh를 이용해서 인증하기.md"
+    },
+    {
       "basename": "vim argment list tip and trick",
       "path": "3. develop environment/neovim/vim argment list tip and trick.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20231029121527",
       "path": "30. attached file/Pasted image 20231029121527.png"
-    },
-    {
-      "basename": "hqdefault",
-      "path": "30. attached file/hqdefault.webp"
     }
   ],
   "omittedPaths": [],
