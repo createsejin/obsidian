@@ -217,6 +217,8 @@
   },
   "active": "8b4ff47172c54045",
   "lastOpenFiles": [
+    "1.2. Git/Android에서 termux로 git ssh를 이용해서 인증하기.md",
+    "1.2. Git/Android termux를 이용한 git 사용하기.md",
     "1.2. Git/Git 기본 명령어 정리.md",
     "1.2. Git/Clion에서 Git repository 복제하기.md",
     "1.2. Git/Clion에서 Git remote repository 생성하기.md",
@@ -243,8 +245,6 @@
     "2. Linux/Arch Linux/각종 설치 command.md",
     "2. Linux/Arch Linux/storage",
     "3. develop environment/neovim/diff view 사용방법.md",
-    "2. Linux/Arch Linux/기본 설치 계획.md",
-    "3. develop environment/neovim/nvim-treesitter-context 파싱 안되는 현상.md",
     "3. develop environment/VS Code",
     "3. develop environment/CLion",
     "3. develop environment/Visual Studio 2022",

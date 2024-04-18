@@ -1,6 +1,7 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "branch 전환 및 병합",
       "path": "1.2. Git/branch 전환 및 병합.md"
     },
@@ -27,14 +28,27 @@
     {
       "basename": "Git repo 안에 또다른 Git repo Submodule 추가하기",
       "path": "1.2. Git/Git repo 안에 또다른 Git repo Submodule 추가하기.md"
+=======
+      "basename": "Android termux를 이용한 git 사용하기",
+      "path": "1.2. Git/Android termux를 이용한 git 사용하기.md"
+    },
+    {
+      "basename": "Android에서 termux로 git ssh를 이용해서 인증하기",
+      "path": "1.2. Git/Android에서 termux로 git ssh를 이용해서 인증하기.md"
+>>>>>>> 90bf4b696691dea64773270ab0e33d8b661531eb
     },
     {
       "basename": "vim argment list tip and trick",
       "path": "3. develop environment/neovim/vim argment list tip and trick.md"
     },
     {
+<<<<<<< HEAD
       "basename": "shell syntax highlighting and autocompl",
       "path": "3. develop environment/tmux/shell syntax highlighting and autocompl.md"
+=======
+      "basename": "2. 구독 목록",
+      "path": "1. C++/보관함/2. 구독 목록.md"
+>>>>>>> 90bf4b696691dea64773270ab0e33d8b661531eb
     },
     {
       "basename": "text internet browsing",
