@@ -1,7 +1,6 @@
 `git pull <url>` 또는 `git pull origin master`
 remote 레포지토리에서 프로젝트를 가져온다. 이것은 처음 작업을 시작할때 무조건 해줘야함. 이걸 안하고 하면 confilc되서 작업한걸 레포지토리에 push할 수 없다.
 여기에서 `master`는 브랜치라는 것이다.
-Test002--
 
 `git add .`
 현재 변경 사항을 스태이징 영역에 추가한다. 
