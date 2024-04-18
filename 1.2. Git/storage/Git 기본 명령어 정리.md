@@ -4,6 +4,7 @@ remote 레포지토리에서 프로젝트를 가져온다. 이것은 처음 작�
 
 `git add .`
 현재 변경 사항을 스태이징 영역에 추가한다. 
+반대로 unstaging은 `git reset`으로 할 수 있다.
 
 `git commit -m "comments"`
 현재 변경 사항이 담긴 스태이징을 commit한다.
