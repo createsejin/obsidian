@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2. 구독 목록",
+      "path": "1. C++/보관함/2. 구독 목록.md"
+    },
+    {
       "basename": "vim argment list tip and trick",
       "path": "3. develop environment/neovim/vim argment list tip and trick.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2023-10-31 18.42.51",
       "path": "30. attached file/2023-10-31 18.42.51.jpg"
-    },
-    {
-      "basename": "68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67",
-      "path": "30. attached file/68747470733a2f2f692e726564642e69742f317979393873727879767838312e706e67.png"
     }
   ],
   "omittedPaths": [],
