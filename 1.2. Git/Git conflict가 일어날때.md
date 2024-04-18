@@ -101,3 +101,10 @@ PS C:\Users\bae\obsidian\.obsidian> git log -10 --graph
 그때에는 안내에 따라서 다시 pull을 해서 remote의 변경사항과 현재 local의 변경사항의 conflict를 적절히 해결한뒤 다시 commit, push하면 된다.
 
 또한 git conflict가 처음에 발생하면 보통 git은 어떻게 merge를 처리할건지 묻는다.
+3가지 중 하나를 고르면 된다.
+```
+git config pull.rebase false
+git config pull.rebase true
+git config pull.ff only
+```
+보통은 `rebase false` 즉 merge를 고르는게 좋다. 물론 rebase도 좋긴하지만 되도록이면 merge를 한 뒤에 브랜치를 제거하거나 아니면 rebase를 해도 좋다. 이 부분은 나도 아직 잘 모르는 부분이라 공부가 더 필요해보인다.
