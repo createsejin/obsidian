@@ -1,0 +1,12 @@
+{
+  "accentColor": "#fcd9ff",
+  "cssTheme": "Minimal",
+  "textFontFamily": "Dotum,나눔고딕",
+  "monospaceFontFamily": "Source Code Pro,D2Coding ligature",
+  "enabledCssSnippets": [
+    "myCss"
+  ],
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "baseFontSize": 14
+}
