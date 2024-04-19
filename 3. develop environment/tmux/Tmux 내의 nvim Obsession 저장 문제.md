@@ -1,0 +1,3 @@
+기본적으로 tmux의 resurrect plugin은 세션을 로드할때 nvim이 켜져있는 Tmux가 있으면 무조건 그냥 
+`nvim -S` 이걸 실행한다. 그 세션의 nvim이 켜져있었던 패널의 working directory에서 `nvim -S`을 실행하는 것이다. 이러면 무조건 그 시작은 `Session.vim`파일을 통해 nvim 세션을 열게된다.
+이렇게 되면 내 custom session을 tmux에서 바로 시작할 수 없는 문제가 생기는데, 이것은 [[심볼릭 링크, 하드 링크|심볼릭 링크]]를 통해 아주 간단히 해결할 수 있을 줄 알았다. 그러나 문제는 심볼릭 링크던 하드링크던 `nvim -S`를 통해 vim을 열면 Obsession plugin vim script에서 그냥 Session.vim 파일에 '쓰기'를 한다는 것이다. 그래서 심볼릭 링크나 하드링크가 아무런 소용이 없게 된다는 것이다. 그러므로 심볼릭 링크나 하드링크를 거는건 불가능하다. 그냥 Session.vim을 중심으로 작업할 수 밖에 없다는 것. 그리고 더 큰 문제는 같은 working 디렉토리에서 다른 Session.vim 파일을 열어서 같은 세션내에서 같은 파일을 열면 swap 파일이 생겨서 매우 짜증나는 상황이 생긴다는 것이다.
