@@ -1,8 +1,9 @@
 기본적으로 [이곳](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)을 참조하면 된다. 
 처음에 termux를 설치하고 git을 설치한뒤 git clone을 하고 또 다른 git 작업을 할때 다음과 같은 에러가 뜰 수 있다.
+
 `fatal: detected dubious ownership in repository at '/storage/emulated/0/ob-git' ...`
 이럴 경우에는 다음 명령어를 사용해서 현재 directory를 신뢰할 수 있는 work directory로 만들어야한다.
-`git config --global --add safe.directory /storage/emulated/0/ob-git`
+`git config --global --add safe.directory /storage/emulated/0/ob-git`^gitsafedir
 
 또한 다음 명령어를 이용하여 자신이 누구인지를 git에게 알려줘야한다.
 `git config --global user.email "createsejin@gmail.com"`

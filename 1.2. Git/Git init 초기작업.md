@@ -29,3 +29,6 @@ git remote add origin https://github.com/createsejin/nvimt.git
 git branch -M main
 git push -u origin main
 ```
+
+만약 현재 디렉토리가 안전한 디렉토리로 지정되지 않아서 다음과 같은 오류가 뜨면
+[[Android에서 termux로 git ssh를 이용해서 인증하기#^gitsafedir|이곳]]을 참조하자.
