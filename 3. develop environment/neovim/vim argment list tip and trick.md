@@ -18,4 +18,4 @@
 예를 들면 1번 tab에서 1번 2번 window가 서로 같은 local argument list를 가지도록 공유했다면 이 세션을 닫고 다시 열게 되면 1번 탭의 1번과 2번 window는 argument list 내용은 같지만 더이상 서로 공유되는 argument list가 아니게 된다. 즉 2번 window에서 새로운 argument를 추가하면 1번에 추가되지 않는다. 따라서 세션을 다시 로드할때에는 안타깝지만 창이 분리되어 있다면 `<C-w>o`로 한 window만 남긴 상태에서 다시 창을 분리해야한다는 것이다.
 
 ## loadview는 주의해서 사용하자.
-[[vim 자체의 session 저장 기능과 view|이 글]]에 따르면 view를 load하는것은 현재 window의 argument list를 그 view의 상태로 복원시킨다는 점이다. 즉, 이전 argument는 이 명령으로 인해 사라질 수 있다. 따라서 loadview는 매우 매우 주의해서 사용해야하며, 되도록이면 Obsession, vim session을 이용해서 현재 세션을 저장하는걸 집중하자. 되도록이면 loadview를 사용하지 말자. 사용해야한다면 [[vim view|이 글]]에서처럼 view들을 저장하는 공간에 특정 이름으로 저장해두고 `:so file`로 load하자.
+[[vim 자체의 session 저장 기능과 view|이 글]]에 따르면 view를 load하는것은 현재 window의 argument list를 그 view의 상태로 복원시킨다는 점이다. 즉, 이전 argument는 이 명령으로 인해 사라질 수 있다. 따라서 loadview는 매우 매우 주의해서 사용해야하며, 되도록이면 Obsession, vim session을 이용해서 현재 세션을 저장하는걸 집중하자. 되도록이면 loadview를 사용하지 말자. 사용해야한다면 [[vim view|이 글]]에서처럼 view들을 저장하는 공간에 특정 이름으로 저장해두고 `:so file`로 load하자. 아니면 더 편한 [[argument를 유지하면서 mkvie!, lo 사용하기|이 방법]]을 사용해보자.

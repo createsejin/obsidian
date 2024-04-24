@@ -5,5 +5,8 @@
 `./init_live 3`
 `./init_live 4`
 
+`source ~/.zshrc`
+`cd home/bae/Documents`
 tx -> `<Prefix>I`
-vim -> `:PlugInstall`
+vim -> `:PlugInstall` -> `q`
+`vim -S arch_backup_live.vim`
