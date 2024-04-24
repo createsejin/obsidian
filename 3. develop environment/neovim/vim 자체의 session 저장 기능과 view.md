@@ -10,8 +10,8 @@ au BufWinEnter *.c silent loadview
 여러가지를 종합해볼때, mkview는 꽤나 쓸만하지만 자동 저장은 사실상 어렵기 때문에 쉽지 않다. 게다가 아무런 argu 없이 `:mkview`만 하면 그 파일 이름 기준으로 view가 저장되는데 이것도 썩 그닥이다.
 
 ## 결론
-그냥 Obsession을 이용해서 현재 세션을 자동 저장하는게 가장 편해보인다.
-loadview를 남용하지만 않으면 Obsession에서도 안전하게 argument를 보존할 수 있을것으로 보인다. 어차피 폴딩은 그 view에 저장되는것이라 window 관리[^1]만 잘 해주면 될 것으로 보인다. 
+그냥 Obsession을 이용해서 현재 세션을 자동 저장하는게 가장 편해보인다. 그렇지만 되도록이면 vim의 기본 세션 기능의 [[argument를 유지하면서 mkvie!, lo 사용하기#^1|수동 저장 방식]]을 이용하는것이 안전하다.
+loadview를 남용하지만 않으면 Obsession에서도 안전하게 argument를 보존할 수 있을것으로 보인다. 어차피 폴딩은 그 view에 저장되는것이라 window 관리[^1]만 잘 해주면 될 것으로 보인다. 그러나 argument와 folding을 모두 보존하는 [[argument를 유지하면서 mkvie!, lo 사용하기|방법]]이 있다.
 view는 이따금씩 window에 속한 local argument list를 저장해줄때 아주 유용하게 쓰일것 같다.
 
 [^1]: session을 불러올때 두 개 이상의 윈도우가 있으면 Ctrl+w, o를 통해 한 윈도우만 남기고 다시 split하는 기법을 말한다. 그 이유는 [[vim argment list tip and trick#Obsession을 다시 load할때 주의할점|이렇다]].
