@@ -1,5 +1,5 @@
 [기본 설치 참조 문서](https://toopyo.tistory.com/entry/Termux%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%ED%8F%B0%EC%97%90%EC%84%9C-%ED%84%B0%EB%AF%B8%EB%84%90-%EC%93%B0%EA%B8%B0) : 한국어 문서인데 Termux 설치 및 기본 세팅에 대해 설명하고 있다.
-기본적으로 [F-Droid](https://f-droid.org/en/packages/com.termux/)에서 Termux apk file을 다운받아서 휴대폰에 저장한 후 실행하여 설치하면 된다. 또한 내가 이전에 쓴 [[Android termux를 이용한 git 사용하기|글]]에서는 처음에 Termux에서 저장 공간 접근 권한을 허용하는 방법을 설명해두고 있으니 참고하자.
+기본적으로 [F-Droid](https://f-droid.org/en/packages/com.termux/)에서 Termux apk file을 다운받아서 휴대폰에 저장한 후 실행하여 설치하면 된다. 또한 내가 이전에 쓴 [[Android termux를 이용한 git 사용하기|글]]에서는 처음에 Termux에서 저장 공간 접근 권한을 허용하는 방법을 설명해두고 있으니 참고하자. git 세팅은 앞번 링크 [[Android termux를 이용한 git 사용하기|글]]과 이 [[Android에서 termux로 git ssh를 이용해서 인증하기|글]]을 참조하면 좋다.
 
 [이글](https://practical.li/neovim/termux/)에서는 Termux에서 Neovim을 사용하는 방법을 간략하게 소개하고 있다.
 나같은 경우는 `termux-chagne-repo`를 이용해서 우선 mirror site 지역을 Asia로 바꾸고 
