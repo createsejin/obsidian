@@ -2,11 +2,7 @@
 `git config --global credential.credentialStore cache`
 이거 쓰면 끝난다. fugitive도 이걸 써야 제대로 동작한다. 
 gpg는 나중에 [[Android에서 termux로 git ssh를 이용해서 인증하기|SSH]] 쓸거 아니면 그냥 쓰지 않는게 좋다. 제대로 동작하질 않는다.
-<<<<<<< HEAD
-
-=======
 ## github-cli
->>>>>>> f4c4adb4cf2d3e7e17ade390eee106262c364b19
 그러나 이것보다 훨씬 좋은 방법이 있다.
 그것은 바로 `github-cli`를 이용하는 방법이다.
 pacman을 통해서 설치할 수 있었다.
