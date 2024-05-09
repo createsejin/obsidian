@@ -38,3 +38,30 @@ fn expensive_test() {
 test에서 제외시킨다.
 `cargo test -- --ignored`를 통해 제외된 test를 다시 test할 수 있다.
 `cargo test -- --include-ignored` 이렇게 하면 제외된 test를 포함해서 모든 test를 진행한다.
+
+## integration test
+```
+study_lib
+├── Cargo.toml
+├── src
+│   ├── lib.rs
+│   └── study15.rs
+└── tests
+    └── integration_test.rs
+```
+이런식으로 새로 `tests`라는 폴더를 만들고 그 안에 다시 `integration_test.rs`를 만든다. 아마도 내부 `.rs`모듈 파일은 다른 이름으로도 가능할거다.
+
+이렇게 만들면 라이브러리 프로젝트에서 실제 바이너리 프로젝트와 거의 동일한 환경에서 라이브러리를 테스트 할 수 있다.
+
+`integration_test.rs`는 다음과 같이 작성한다.
+```
+use study_lib::study15;
+
+#[test]
+fn test003() {
+  study15::study004();
+}
+```
+그 후 
+`cargo test --test integration_test` 로 해당 테스트를 특정해서 테스트가 가능하다. 
+물론 그냥 `cargo test`를 해도 자동으로 모든 테스트를 진행해준다. 
