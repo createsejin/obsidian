@@ -13,6 +13,7 @@
 `git remote set-url origin git@github.com/createsejin/obsidian.git`
 다음 명령어로 현재 등록된 remote repository가 어떤 프로토콜을 사용하는지 알 수 있다.
 `git remote -v`
+^1
 
 이제 여기부터는 SSH key를 만들어야한다.
 다음 명령어로 만들 수 있다.
