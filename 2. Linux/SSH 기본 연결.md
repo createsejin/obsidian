@@ -36,4 +36,4 @@ Host bsv
   User bsv
 ```
 이렇게 해두면 이제 이 서버에 접속할때 다음과 같이 심플하게 커맨드를 쓸 수 있다.
-`ssh bsv`
+`ssh bsv` 

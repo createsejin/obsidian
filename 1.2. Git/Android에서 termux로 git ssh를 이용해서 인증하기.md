@@ -19,7 +19,7 @@
 다음 명령어로 만들 수 있다.
 `ssh-keygen -t ed25519 -C "createsejin@gmail.com"`
 몇가지를 물어보는데, 먼저 어떤 file에 key를 save할건지 묻는다. 그냥 Enter를 입력하면 defualt로 설정된 file에 key가 새겨지므로 Enter를 눌러 진행한다.
-그러면 다음으로 passphrase를 입력하라고 한다. 기억할 수 있는 같은 password를 두 번 같게 입력하면 된다. 이 비밀번호는 나중에 이 key를 사용할때 매번 묻는 password가 된다.
+그러면 다음으로 passphrase를 입력하라고 한다. 기억할 수 있는 같은 password를 두 번 같게 입력하면 된다. 이 비밀번호는 나중에 이 key를 사용할때 매번 묻는 password가 된다. ^2
 
 다음으로 이 키를 github.com에 upload해야한다.
 `cd ~/.ssh`
