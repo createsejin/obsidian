@@ -24,3 +24,5 @@ Android에는 termux가 세팅되어있다. home으로 이동해서
 
 문제는 현재 내 Termux 환경에 Java가 없어서 위 명령어를 못하고 있다. 아마도 sdkmanager가 Java를 요구하는 것 같았다. 
 
+
+
