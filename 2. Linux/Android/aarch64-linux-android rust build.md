@@ -34,3 +34,9 @@ cargo build --target=aarch64-linux-android
 `hello_android/target/aarch64-linux-android/debug`에 실행파일이 만들어진다. 
 
 나는 편리한 개발과 배포를 위해서 github repository를 활용했다. 예를 들어서 현재 만든 Project를 github remote repository로 [[github-cli를 이용한 remote repository 만들기|만든]] 뒤 적절하게 실행파일을 옮기고 그것을 Android termux에서 git clone 하는 방법으로 간단히 실행파일을 옮기고 테스트할 수 있었다. 일단 `Hello, world!`를 출력하는데까지는 성공했다. 사실 여기까지 된거면 뭐 그 다음부터는 case by case이지만 아마도 외부 라이브러리도 가능하지 않을까 싶다. 
+
+Rust의 실행 파일을 손쉽게 설치하는 방법으로는 `cargo install`을 이용하는 방법이 좋다.
+```
+cargo install --target aarch64-linux-android --path . --root bin
+```
+이것은 target host를 `aarch64-linux-android`로 설정하고, `--path`는 install from, 즉 설치할 crate의 경로를 의미하며, `--root`는 설치할 경로를 의미한다. 나는 같은 프로젝트 최상단 디렉토리에서 `bin`폴더를 만들어서 여기에 설치한뒤, 이것을 github를 통해 Android에 전달했다. 
