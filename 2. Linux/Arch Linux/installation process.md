@@ -113,7 +113,7 @@ nvim
 pacman -S alsa-utils pipewire bluez bluez-utils networkmanager network-manager-applet man-db bat texinfo unzip neofetch
 
 # set time
-ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 hwclock --systohc
 
 # Localization
