@@ -9,9 +9,11 @@ touch Cargo.toml
 ```
 [workspace]
 members = [ "study_lib", "study_bin" ]
+default-members = [ "study_bin" ]
 resolver = "2"
 ```
 여기에서 `members`는 각각의 독립된 workspace를 가르킨다. 
+`default-members`는 최상위 루트에서 `-p` flag 없이, 기본적으로 실행할 바이너리를 지정하면 좋다.
 `resolver` 옵션은 2로 설정하면 된다.
 
 그 후 다음 명령어를 통해 각각의 프로젝트를 만들어준다.
