@@ -4,3 +4,10 @@
 여기에서 `<file>`은 working directory의 root에서 file의 상대 경로를 써주면 된다.
 보통은 [[상대 경로 찾기|이 명령어]]를 이용하면된다. 나는 alias로 `rpr`을 이용한다. 우선 파일의 절대 경로를 구한뒤, root로 가서 `rpr <file_path>`이런식으로 쓰면 된다.
 그 후 적당히 파일을 원하는데로 수정하고 git status를 확인한뒤 git add, git commit을 하고 push하면 된다.
+
+또한 특정 파일 하나만 stash해서 변경사항을 버리는 방법도 있다.
+`git stash save -- myfile.txt mycode.py`
+이런식으로 여러개의 파일을 동시에 포함시킬 수도 있다.
+
+`git stash save -p` 
+이걸 사용하면 어떤 파일을 선택할지 interactive mode로 묻는다.
