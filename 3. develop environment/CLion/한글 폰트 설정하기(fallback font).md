@@ -1,0 +1,1 @@
+settings -> Editor -> Font -> Typography Settings -> Fallback font: 에서 원하는 폰트로 설정. 나는 Dotum을 좋아해서 이걸로 했다.
