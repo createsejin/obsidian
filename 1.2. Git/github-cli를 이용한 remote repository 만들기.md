@@ -1,4 +1,4 @@
-우선 만들고자 하는 Project 최상단에 가서 `git init`을 이용해서 최초 local git repository를 만들어준다. 그후,
+우선 이 [[Git init 초기작업|글]]을 참고해서 만들고자 하는 Project 최상단에 가서 `git init`을 이용해서 최초 local git repository를 만들어준다. 그후,
 `gh repo create`를 하면 interactive question이 시작된다.
 ```
 ? What would you like to do? Push an existing local repository to GitHub
