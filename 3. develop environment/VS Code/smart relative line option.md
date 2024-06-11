@@ -1,0 +1,1 @@
+`Vim: Smart Relative Line` 옵션을 활성화 시키면 [[Hybrid line number|Hybrid line number]]를 VSC에 적용시킬 수 있다. 훌륭한 점은 insert mode에서는 다시 절대값 line으로 변신한다는 점이다. 
