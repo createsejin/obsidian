@@ -1,8 +1,7 @@
 Ctrl + h, j, k, l 을 설정해두면 CLion을 사용하기가 매우매우 편리해진다. 
 
 ideaVim plugin은 필수필수필수다. 무조건 설치해주자.
-
-설치하면 오른쪽 하단 status bar에 Vim 표시가 초록색으로 뜬다. 그걸 눌러서 setting에 진입하자.
+설치하면 오른쪽 하단 status bar에 Vim 표시가 초록색으로 뜬다. 그걸 눌러서 setting에 진입하자. ^6661b3
 
 그러면 Ctrl+... 에 대한 설정들이 쭉 나오는데, 여기에서 Ctrl + h, j, k, l 얘네들을 모두 Vim으로 바꿔준다.
 
