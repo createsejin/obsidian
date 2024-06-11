@@ -1,4 +1,4 @@
-adrust formatting을 할때 사용되는 파일이 하나 있다.
+rust formatting을 할때 사용되는 파일이 하나 있다.
 
 `/home/bae/.config/rustfmt/rustfmt.toml` 라는 파일이다.
 
