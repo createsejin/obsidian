@@ -42,7 +42,7 @@ ip addr
     inet 192.168.45.219/24 brd 192.168.45.255 scope global eth0
        valid_lft forever preferred_lft forever
 ```
-그러면 위와같이 외부망의 IP를 할당받아 사용되는 것을 볼 수 있다.
+그러면 위와같이 외부망의 IP(192.168..)를 할당받아 사용되는 것을 볼 수 있다.
 
 그러나 이 [글](https://ahnbk.dev/?p=342)에 따르면 위 사항을 적용하고 나서도 업로드 속도가 무차별로 저하되는 증상이 발생한다고 한다. 이것을 해결하기 위해서는 시작단추 우클릭 -> 장치 관리자 에서 '네트워크 어댑터' -> Hyper-V Virtual .. 우클릭 속성창을 띄운뒤
 고급 탭 에서 Large Send Offload Version 2 (IPv4) ,Large Send Offload Version 2 (IPv6) 항목을 Enable에서 Disable로 바꿔주면 이 문제가 해결된다고 한다.
