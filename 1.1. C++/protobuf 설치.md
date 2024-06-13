@@ -24,6 +24,7 @@ target_link_libraries(collections PRIVATE protobuf::libprotoc protobuf::libproto
 순서를 유의해서 작성하기 바란다. find_package는 add_executable 보다 전에 와야하고, target_link_libraries는 그 후에 와야한다.
 vcpkg toolchain file은 해당되는 vcpkg의 `vcpkg.cmake`가 있는 저 위치로 설정하면 된다. 자신의 Path에 맞게 설정해주자.
 당연히 Project 이름 및 main target은 자신의 프로젝트에 맞게 설정해야한다. 위 경우는 project 이름이 `collections`다.
+==그러나 안타깝게도 이 방법으로는 완전하게 동작하지 않는다.== 따라서 이 [[protobuf 설치2 - 라이브러리 링크하기|방법]]을 참고하자.
 
 ## .proto file compile by protoc
 ```
@@ -37,6 +38,7 @@ root/
 protoc -I=tests --cpp_out=. tests/addressbook.proto
 ```
 이런식으로 컴파일 해주면 된다. 
+`-I`는 `.proto`파일을 찾는 디렉토리고(하위 디렉토리도 찾는다), `--cpp_out`은 컴파일된 파일이 위치할 곳이며(보통은 `.proto`가 있는 위치에  놓여진다), 마지막 인자는 현재 디렉토리 기준으로의 어떤 `.proto`파일을 컴파일할건지다. 이것은 두 개 이상도 가능한것으로 보인다.
 
 그러면 protoc가 만든 파일들이 생성되는데 이 헤더 파일을 `#include`해서 사용하면 된다.
 자세한 사용 방법은 이 [튜토리얼](https://protobuf.dev/getting-started/cpptutorial/)을 참고하자.
