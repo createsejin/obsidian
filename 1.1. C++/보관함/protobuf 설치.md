@@ -24,7 +24,7 @@ target_link_libraries(collections PRIVATE protobuf::libprotoc protobuf::libproto
 순서를 유의해서 작성하기 바란다. find_package는 add_executable 보다 전에 와야하고, target_link_libraries는 그 후에 와야한다.
 vcpkg toolchain file은 해당되는 vcpkg의 `vcpkg.cmake`가 있는 저 위치로 설정하면 된다. 자신의 Path에 맞게 설정해주자.
 당연히 Project 이름 및 main target은 자신의 프로젝트에 맞게 설정해야한다. 위 경우는 project 이름이 `collections`다.
-==그러나 안타깝게도 이 방법으로는 완전하게 동작하지 않는다.== 따라서 이 [[protobuf 설치2 - 라이브러리 링크하기|방법]]을 참고하자.
+==그러나 안타깝게도 이 방법으로는 완전하게 동작하지 않는다.== 따라서 이 [[gRPC 설치 - Cpp|방법]]을 참고하자.
 
 ## .proto file compile by protoc
 ```

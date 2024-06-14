@@ -21,3 +21,8 @@ add_executable(collections main.cpp
 target_include_directories(collections PRIVATE ${ABSEIL_CPP_DIR} ${PROTOBUF_SRC_DIR})
 ```
 이런식으로 해주면 cmake가 알아서 해당 헤더들을 프로젝트에 포함해주고 링크해준다.
+
+그렇지만 이 방법에도 ==문제는 있었다..== 
+아마도 clang 컴파일러 혹은 submodule 때문인 것으로 보인다.
+
+이 [[gRPC 설치 - Cpp|글]]에서 Windows 환경에 대한 설치 및 사용 방법이 적혀져있다. Windows에서는 이 방법이 유일하게 현재로써 먹힌다.
