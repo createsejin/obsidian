@@ -26,3 +26,5 @@ causing the application to fail at runtime. [C:\Users\creat\Projects\the_cave\co
 아무튼, publish 명령을 때리면 `bin/Release/net8.0/win-x64/native`에 실행파일이 하나 담긴다. 이것을 배포하면 되는것으로 보인다.
 
 아무래도 외부에서 쉘을 통해 자주 여러번 실행이 필요한 경우에는 이것을 쓰는게 좋아보인다. 
+
+단점으로는 아무래도 배포되는 실행파일이 플랫폼에 종속되고, .Net runtime이 모두 포함되므로 실행파일 용량이 커진다는 점이다.

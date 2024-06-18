@@ -1,3 +1,9 @@
+```
+dotnet add package System.Drawing.Common
+```
+위 명령어로 package를 프로젝트에 추가해줘야한다. 
+이 패키지는 Windows에서만 지원된다.
+
 ```csharp
 using System.Drawing.Drawing2D;
 using System.Drawing;
