@@ -1,1 +1,1 @@
-그냥 개쉬움 젼나 쉬움. ㅋㅋ 역시 러스트는 진짜 너무나도 좋스빈다. rustup, cargo, rustrover 만 있으면 땡~ 
+말할것도 없이 매우 간단하다. [공식 사이트](https://www.rust-lang.org/learn/get-started)에 들어가서 설치파일 받고 설치하면 된다. 

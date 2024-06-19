@@ -101,4 +101,4 @@ IEnumerable<List<String>> query2 =
 `img_extensions` 배열에 대해 `SelectMany`를 이용해서 이 배열의 요소인 `ext`를 `Directory.EnumerateFiles` 메소드의 두번째 파라미터, 즉, search pattern에 사용한 것이다.  이것에 의해 `Directory.EnumerateFiles`가 반환하는 모든 요소들을 배열 변수 `img_files`에 담아서 그것이 하나라도 존재한다면 `foreach`를 이용해서 그 요소들인 `file`들을 출력하는 코드다.
 
 즉, Select는 표현 람다식에서 반환되는 요소들을 모아서 `IEnumerable` 콜렉션으로 반환하고,
-Where은 표현 람다식에서 true인 요소만 모아서 콜렉션으로 반환한다.
+[[Where, Any|Where]]은 표현 람다식에서 true인 요소만 모아서 콜렉션으로 반환한다.

@@ -25,6 +25,8 @@ if "%1" == "-k" (
     ) else (
       %VERACRYPT% /quit /auto /volume "Pack009_2024-01-02_001.hc" /letter M /mountoption ro /m rm /protectMemory /cache no
     )
+  ) else (
+    %VERACRYPT% /quit /auto /volume "Pack009_2024-01-02_001.hc" /letter M /mountoption ro /m rm /protectMemory /cache no
   )
 ) else if "%1" == "-c" (
   echo off | clip
@@ -71,3 +73,18 @@ powershell -command "Get-Content 'M:\PnQ Key.txt' | Select-Object -Index 3 | Set
   echo off | clip
 ```
 이러한 명령어를 통해 클립보드를 비워주는 command를 추가할 수 있다.
+
+사용은 아래처럼 하면 된다.
+```
+PS G:\내 드라이브\1.창고\정보\Packs> .\pack.bat -m
+PS G:\내 드라이브\1.창고\정보\Packs> .\pack.bat -m s
+PS G:\내 드라이브\1.창고\정보\Packs> .\pack.bat -m q
+The passwd copied. After use this passwd, You should clear the clipboard: Using '.\pack.bat -c'.
+PS G:\내 드라이브\1.창고\정보\Packs> .\pack.bat -c
+clipboard cleared.
+PS G:\내 드라이브\1.창고\정보\Packs> .\pack.bat -m f
+PS G:\내 드라이브\1.창고\정보\Packs> .\pack.bat -m p
+PS G:\내 드라이브\1.창고\정보\Packs> .\pack.bat -d
+```
+처음 `-m`만 쓰면 key capsule을 마운트하는것이고 마지막 `-d`만 쓰면 역시 key capsule을 dismount 하는 것이다. 나머지 S, F, P는 veracrypt disk volume들을 마운트하는것이고, 예외적으로 `q`는 veracrypt가 아닌, windows의 bit locker 암호를 클립보드에 붙여넣어서 Q disk를 해제한 후, `-c` 스위치로 클립보드를 clear 한다.
+참고로 이 스크립트는 powershell이나 windows의 cmd shell 환경에서만 동작한다. 
