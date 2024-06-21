@@ -12,7 +12,9 @@ cmake-build-debug>mklink /h mecro_data.db D:\Projects\gta_cMecro\SQL\mecro_data.
 
 그리고 이 명령어는 반드시 powershell이 아닌 cmd에서 실행해야 작동한다.
 
-https://blog.naver.com/PostView.nhn?blogId=777775959&logNo=220656513977
-이 글을 참조하면 아주 좋다.
+
+이 [글](https://blog.naver.com/PostView.nhn?blogId=777775959&logNo=220656513977)을 참조하면 아주 좋다.
+
+
 
 #Windows #cmd
