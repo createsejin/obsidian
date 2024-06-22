@@ -13,3 +13,5 @@ Tools -> options -> Environment -> General -> Color Theme에서 바꿀 수 있�
 그리고 이 테마는 너무 텍스트 에디터 배경이 허얘서 
 Tools -> options -> Environment -> Fonts and Colors 에서 몇가지 윈도우 배경을 바꿔주면 좋다.
 나는 Text Editor, output window, 
+
+그러나 테마는 역시 [[Catppuccin for Visual Studio|Catppuccin]]만한게 없다.

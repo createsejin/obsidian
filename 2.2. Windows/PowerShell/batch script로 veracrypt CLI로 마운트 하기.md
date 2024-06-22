@@ -89,3 +89,5 @@ PS G:\내 드라이브\1.창고\정보\Packs> .\pack.bat -d
 .\pack.bat -k
 ```
 이것은 KeePass passwd를 clipboard에 저장시킨다.
+
+그러나 [[powershell veracrypt script|이 powershell script]]를 통해 훨씬 더 매끄럽고 readable하며 다양한 case를 handling한 script를 짤 수 있었다. 

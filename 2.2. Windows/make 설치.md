@@ -1,0 +1,2 @@
+[이곳](https://gnuwin32.sourceforge.net/packages/make.htm)에 가서 Download 섹션에서 "Complete package, except sources" 옆 다운로드 링크를 눌러서 다운받은 후 설치해준다.
+설치 위치를 잘 기억해놨다가 그곳으로 가자. `bin` 폴더가 보일것이다. 이 폴더 경로를 환경 변수에 등록해주자.
