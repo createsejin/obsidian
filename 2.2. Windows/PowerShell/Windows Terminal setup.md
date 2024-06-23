@@ -12,7 +12,8 @@ code %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\
             "command": 
             {
                 "action": "copy",
-                "singleLine": false
+                "singleLine": false,
+                "dismissSelection": false
             },
             "keys": "ctrl+shift+c"
         },
@@ -23,3 +24,4 @@ code %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\
 ```
 
 일단은 `nvim`을 위해서 `copy`와 `paste`의 키바인딩을 조금 바꿔줬다.
+`"dismissSelection": false`은 `copy` command로 copy할때 mark mode가 해제되는걸 방지한다. `Enter`키로 copy할 경우에는 mark mode가  해제된다.
