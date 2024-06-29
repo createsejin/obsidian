@@ -1,0 +1,1 @@
+[여기](https://github.com/createsejin/mydoc/blob/main/scripts/.pwsh/pack.ps1)에서 내 스크립트를 볼 수 있다.

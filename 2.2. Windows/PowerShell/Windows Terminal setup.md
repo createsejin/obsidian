@@ -128,4 +128,4 @@ swap pane은 `alt + shift + [h,j,k,l]` 이다.
 참고로 Windows Terminal은 마우스로 패널 사이즈를 조정하는 기능이 없다. 
 기본 세팅된 키는 `alt + shift + <arrow key>`이다.
 
-놀라운점은 neovim에서 win term의 다른 패널로 넘어가는게 가능하다는 것이다. 아마도 플러그인에서 이걸 지원하는건지 그건 모르겠다. 
+놀라운점은 neovim에서 windows terminal의 다른 패널로 넘어가는게 가능하다는 것이다. 아마도 플러그인에서 이걸 지원하는건지 그건 모르겠다. 

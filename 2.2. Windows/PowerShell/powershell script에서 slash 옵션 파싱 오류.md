@@ -10,6 +10,6 @@ veracrypt.exe의 파라미터의 경우 `/q` 처럼 slash 기반의 option indic
 
 이것을 방지하려면 
 ```powershell
-Start-Process -FilePath "$veracrypt" -ArgumentList "/q /d M"
+Start-Process -FilePath "$veracrypt" -Wait -NoNewWindow -ArgumentList "/q /d M"
 ```
 이런식으로 해주면 된다. 

@@ -26,3 +26,10 @@ Remove-Item .\* -Recurse
 
 이 명령어를 사용할 때는 주의가 필요합니다. `-Confirm` 또는 `-WhatIf` 매개변수를 사용하여 실제로 파일을 삭제하기 전에 확인하거나 예상 결과를 확인하는 것이 좋습니다².
 
+## rm alias
+그러나 어차피 기본적으로 powershell에서는 `rm`이  alias로 등록되어있기 때문에 
+```
+rm -r <directory>
+rm <file>
+```
+이런식으로 사용할 수 있다.

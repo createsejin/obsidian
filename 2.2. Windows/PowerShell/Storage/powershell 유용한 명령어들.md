@@ -1,3 +1,4 @@
+[공식 문서](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.4)
 ```
 Resolve-Path 'file_name'
 ```
