@@ -1,4 +1,4 @@
-일단 기본적으로 [이 공식 문서](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-nunit)를 참조하면, library project에 대한 NUnit Test Project를 만드는 방법을 알려주고 있다. 기본적으로 최상단 폴더를 만든뒤, `dotnet new sln`을 이용해서 solution file을 만든다. 그 뒤, 하위 폴더 `PrimeService`를 만들어서 그 위치에서
+일단 기본적으로 [이 공식 문서](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-nunit)를 참조하면, [[library project 구성하기|library project]]에 대한 NUnit Test Project를 만드는 방법을 알려주고 있다. 기본적으로 최상단 폴더를 만든뒤, `dotnet new sln`을 이용해서 solution file을 만든다. 그 뒤, 하위 폴더 `PrimeService`를 만들어서 그 위치에서
 `dotnet new classlib`을 통해 library project를 만든다. 그리고 다시 루트 폴더로 돌아가서 
 `dotnet sln add PrimeService/PrimeService.csproj`를 해줘서 루트의 솔루션 파일에 `PrimeService`의 project file을 추가해준다.
 그후 루트 폴더에서 `PrimeService.Tests` 폴더를 만들어준다. 이 폴더는 NUnit test suit 폴더이다. 

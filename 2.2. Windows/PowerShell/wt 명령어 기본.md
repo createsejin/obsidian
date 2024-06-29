@@ -1,3 +1,5 @@
+[공식 문서](https://learn.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows)
+
 `wt [options] [command] ; [command]`
 보통은 이렇게 쓰인다.
 

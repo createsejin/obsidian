@@ -13,3 +13,6 @@ ffmpeg -i "input.jpg" -vf "scale=w=300:h=216:force_original_aspect_ratio=decreas
 ffmpeg -i "input.jpg" -vf "scale=w='min(300,iw)':h='min(216,ih)':force_original_aspect_ratio=decrease" "output.png"
 ```
 이 명령어에는 `min` 함수와 `iw`, `ih`를 이용해서 이것보다 작은 사이즈의 이미지가 있는 경우 그 크기를 upscaling하지 않게끔 하고있다.
+
+[[ffmpeg resize 병렬 처리|여기]]에서는 이 명령어를 이용해서 병렬처리를 하려는것 같은데.. 코드가 너무 단순하다. 
+ffmpeg를 이용하는것도 좋지만, 그냥 .Net의 [[System.Drawing을 이용한 img 썸네일 resize|system.Drawing]]을 이용해서 더 빠르게 처리할 수도 있다.
