@@ -2,8 +2,8 @@
 
 `code $profile`로 profile을 연다.
 ```powershell
-function mk_sym_link([string]$link_name, [string]$relative_path) {
-  New-Item -ItemType SymbolicLink -Path $link_name -Target $relative_path
+function mk_sym_link([string]$target_path, [string]$link_name) {
+  New-Item -ItemType SymbolicLink -Path $link_name -Target $target_path
 }
 Set-Alias -Name ln -Value mk_sym_link
 ```
@@ -31,6 +31,11 @@ C:\Users\creat\mydoc\scripts\.scripts\cdd.sh
 
 얻은 상대 경로를 이용해서 `ln` 명령어로 링크를 만든다.
 ```
-> ln cdd ..\mydoc\scripts\.scripts\cdd.sh
+> ln ..\mydoc\scripts\.scripts\cdd.sh cdd
 ```
-첫번째 인자가 link의 이름이고 두번째 인자가 얻은 상대 경로다.
+첫번째 인자가 얻은 상대 경로이고 두번째 인자가 link의 이름이다.
+
+그런데 이것은 문제점이 있다. [[Start-Process 관리자 권한으로 실행하기|관리자 권한]]이 필요한 명령이기 때문이다. 
+아예 관리자 권한으로 명령어를 실행하는 alias를 하나 만들어야할 것 같다.
+
+결국 [[ln alias 관리자 권한으로 실행하기|이 방법]]으로 완전히 해결했다.

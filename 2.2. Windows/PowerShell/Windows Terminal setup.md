@@ -115,15 +115,28 @@ code %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\
     },
     {
       "command": "togglePaneZoom",
-      "keys": "f3"
+      "keys": "f2"
+    },
+    {
+      "command": "switchSelectionEndpoint",
+      "keys": "insert"
+    },
+    {
+      "command": "toggleBlockSelection",
+      "keys": "ctrl+v"
     }
 ```
 패널 관련 키들을 몇 가지 정해줬다. 
 vertical 하게 패널을 만드려면 `alt + v`
 horizontal 패널은 `alt + h`
 포커스 이동은 vim처럼 `ctrl + [h,j,k,l]`
+-> 키를 추가해서 `ctrl+<arrow>`로도 동작하게 만들었다.
 swap pane은 `alt + shift + [h,j,k,l]` 이다.
-한 패널의 창을 최대로 키웠다가 다시 줄이는 zoom toggle 키는 `F3`이다.
+한 패널의 창을 최대로 키웠다가 다시 줄이는 zoom toggle 키는 `F2`이다.
+Mark mode에서 셀렉션 커서의 왼쪽 사이드, 오른쪽 사이드 위치로 토글하는 키는 `insert`키로 정했다.
+이 기능은 vim에서는 원래 `o`키로 동작하는데, wt의 셀렉션 모드는 기본적으로 방향키 기반이라 어쩔 수 없이 방향키와 
+가까운 키로 정해야했다.
+Mark mode에서 block selection 모드를 토글하는 키는 `ctrl+v`로 했다. vim과 동일하다.
 
 참고로 Windows Terminal은 마우스로 패널 사이즈를 조정하는 기능이 없다. 
 기본 세팅된 키는 `alt + shift + <arrow key>`이다.
