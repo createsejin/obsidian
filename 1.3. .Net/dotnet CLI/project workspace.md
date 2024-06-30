@@ -57,3 +57,10 @@ dotnet add reference ..\SharedModel\SharedModel.csproj
 이런식으로 클래스 라이브러리 프로젝트의 참조를 `Commander` project에 추가할 수 있다.
 
 또한 이와 비슷한 방식으로 NUnit test project를 만들 수 있는데 이것은 [[NUnit Test|이 글]]을 참조하자.
+
+이런 방식으로 해두면 편한게, 루트에서 `dotnet build`를 하면 한번에 여러 프로젝트를 build가 가능하다는 장점이 있다.
+특정 프로젝트만 실행하려면
+```
+dotnet run --project Commander\Commander.csproj
+```
+혹은 그냥 그 프로젝트로 들어가서 `dotnet run`을 하는 방법이 있다.
