@@ -8,7 +8,7 @@ powershell을 띄워서 `$profile`을 쳐보면 현재 이 powershell의 profile
 eza를 이용해서 `ls`와 `l` 명령어를 지정했으며, `tree <level>` 명령어도 지정했다.
 zoxside로 `cd` 명령어를 지정했다.
 
-또한 절대 경로와 상대 경로를 출력해주는 기능을 [[absolute path, relative path Alias 설정하기|이것]]처럼 하여서, `path`와 `rpath`가 지정됐다.
+또한 절대 경로와 상대 경로를 출력해주는 [[absolute path, relative path Alias 설정하기|기능]]으로 `path`와 `rpath`를 지정했다.
 [[ln alias 관리자 권한으로 실행하기|심볼릭 링크]]를 만드는 명령어도 지정했다. `ln <target path> <link name>` 식으로 사용한다.
 
 `touch` alias로 간단히 빈 파일을 만들게 했다.
@@ -21,3 +21,9 @@ zoxside로 `cd` 명령어를 지정했다.
 또한 `which`를 통해 현재 커맨드의 실행파일 위치를 출력하는 기능을 더했다.
 
 `ex`를 통해 현재 쉘에서 windows file explorer를 실행하도록 하였다.
+
+`cl`을 통해 현재 쉘을 `clear`해준다.
+
+`so`로 현재 쉘의 powershell profile을 source 해준다.
+
+`sudo <commands>`를 통해 특정 명령어를 새로운 powershell 터미널에서 [[Start-Process 관리자 권한으로 실행하기|관리자 권한]]으로 실행한다.

@@ -1,0 +1,3 @@
+[[Pipe communication|Named pipe]]를 이용해서 간단히 string을 교환할 수 있는걸 알 수 있다. 그러면 객체 정보는 어떻게 교환하느냐. 바로 
+[System.Text.Json](https://learn.microsoft.com/en-us/dotnet/api/system.text.json?view=net-8.0)을 이용하는 방법이다. 이걸 이용하면 객체를 일렬의 string json으로 serialize 할 수 있고, 역으로 deserialize하는 것도 당연히 가능하다. 
+[[project workspace|프로젝트 workspace]]상에 [[library project 구성하기|classlib project]]를 만들어서 공유 객체 모델(SharedModel)에 공유 객체 클래스를 만들어서 서버와 클라이언트 프로그램에서 그 클래스의 참조를 받아서 이 동일한 객체를 통해 복잡한 메세지를 주고받을 수 있다. 다만 이 pipe 통신은 보안적으로는 좋은 방법이 아니기 때문에 간단한 데이터 교환에만 응용하는것이 좋을 것이다. 
