@@ -27,3 +27,5 @@ zoxside로 `cd` 명령어를 지정했다.
 `so`로 현재 쉘의 powershell profile을 source 해준다.
 
 `sudo <commands>`를 통해 특정 명령어를 새로운 powershell 터미널에서 [[Start-Process 관리자 권한으로 실행하기|관리자 권한]]으로 실행한다.
+
+[[zsh git plugin 정리|zsh git plugin 기능]]을 몇 가지 설정했다. 필요한게 있으면 [여기](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh)에서 가져다 쓰자.
