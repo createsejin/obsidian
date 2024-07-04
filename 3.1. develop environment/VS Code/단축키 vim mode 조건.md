@@ -17,3 +17,4 @@
 ```
 
 특히, default settings에서 보면 `"command": "extension.vim_ctrl+b"` 와 같은 것들이 보인다. 이것은 vim plugin에서 vim의 ctrl 키바인딩 기능을 vscode에서 사용하게 해주는 것으로 보인다.
+

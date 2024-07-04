@@ -40,6 +40,8 @@ fi
 ```sqlite
 sqlite> .read |script.sh option1
 ```
-이런식으로 쓰면 된다! ㅋㅋㅋ 이거다. 언젠가 테스트 해보지.
+이런식으로 쓰면 된다! ㅋㅋㅋ 이거다. 언젠가 테스트 해보자.
+
+왠지 이와 비슷하게 [[powershell을 bash shell 처럼 커스텀하기|powershell]]로도 가능할 것 같다.
 
 #sqlite

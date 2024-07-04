@@ -29,6 +29,6 @@ git repo에서 `mocha.json`을 연다. 여기 내용을 schemas 테이블에 넣
 git repo에서 `mochaTheme.json`을 연다.
 "themes" 테이블에 위 json 내용을 붙여넣는다.
 
-파일을 저장하고 닫은 뒤, 다시 windows terminal에 들어간다.
+파일을 저장하고 닫은 뒤, 다시 [[Windows Terminal setup|windows terminal]]에 들어간다.
 settings -> 기본값 -> 모양 -> 색 구성표 -> Catppuccin Mocha를 선택해준다.
 이 외에도 추가적으로 설정하고 싶은 쉘에 위와 똑같은 과정을 거친다.
