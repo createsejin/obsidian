@@ -29,3 +29,6 @@ zoxside로 `cd` 명령어를 지정했다.
 `sudo <commands>`를 통해 특정 명령어를 새로운 powershell 터미널에서 [[Start-Process 관리자 권한으로 실행하기|관리자 권한]]으로 실행한다.
 
 [[zsh git plugin 정리|zsh git plugin 기능]]을 몇 가지 설정했다. 필요한게 있으면 [여기](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh)에서 가져다 쓰자.
+
+powershell에서도 zsh처럼 auto suggestions 기능이 있다. [이 문서](https://learn.microsoft.com/en-us/powershell/scripting/learn/shell/using-keyhandlers?view=powershell-7.4)에서 사용되는 `Get-PSReadLineKeyHandler`를 이용해서 `MenuComplete` Function에 키바인딩을 하는것이다. 기본적으로는 `Ctrl+Space`로 설정되어있다. 
+또한 `dotnet` CLI 같은 경우에는 [이 문서](https://learn.microsoft.com/en-us/dotnet/core/tools/enable-tab-autocomplete)에서 powershell에 tab completion을 설정하는 방법을 안내하고 있다.
