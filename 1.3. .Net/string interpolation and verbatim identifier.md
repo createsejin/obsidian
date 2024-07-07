@@ -1,3 +1,10 @@
+[공식 문서](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated)  [formattings](https://learn.microsoft.com/en-us/dotnet/standard/base-types/composite-formatting)
+
+기본적인 형식은 다음과 같다.
+```
+{<interpolationExpression>[,<alignment>][:<formatString>]}
+```
+
 ```csharp
       Arguments = $@"""-Command ""{bz_exe}"" x -o ""{target_dir}"" ""{archive_path}""",
 ```
@@ -10,3 +17,8 @@
 
       Arguments = string.Format(bz_extract_args, target_dir, archive_path),
 ```
+
+```csharp
+else Console.WriteLine("test number {0:000} is not available.", test_num);
+```
+이런식으로 `Console.WriteLine`에서는 `0` position에 `test_num`을 넣을 수 있다.
