@@ -13,10 +13,7 @@
 		{"id":"e6173c76835eee6d","type":"text","text":"CommandMessenger","x":-502,"y":10,"width":205,"height":60},
 		{"id":"6840042174279be8","type":"text","text":"CommandOperator","x":-460,"y":190,"width":200,"height":60},
 		{"id":"45163e2320025040","type":"text","text":"Controller","x":-400,"y":-170,"width":140,"height":60},
-		{"id":"f59147c001e730f5","type":"text","text":"Commander","x":-860,"y":10,"width":158,"height":50},
-		{"id":"657c463fe5c3738c","type":"text","text":"DuplicatedWavDetactorService","x":-276,"y":520,"width":280,"height":60},
-		{"id":"9701dc8c4fbcd486","type":"text","text":"DuplicatedWavDetactor","x":-180,"y":300,"width":229,"height":60},
-		{"id":"82e64a7303ebd3b4","type":"text","text":"FileAnalyzer","x":209,"y":400,"width":151,"height":60}
+		{"id":"f59147c001e730f5","type":"text","text":"Commander","x":-860,"y":10,"width":158,"height":50}
 	],
 	"edges":[
 		{"id":"35923bfcdfa0be6d","fromNode":"c916ff6fac37567b","fromSide":"bottom","toNode":"45163e2320025040","toSide":"top"},
@@ -41,12 +38,6 @@
 		{"id":"51275f0d444f4a3d","fromNode":"47a6a44fb21fb7a6","fromSide":"top","toNode":"dbae18fcc61d6879","toSide":"right"},
 		{"id":"68865d6a29bf14af","fromNode":"2b32a76e7ff24da3","fromSide":"top","toNode":"dbae18fcc61d6879","toSide":"right"},
 		{"id":"901a5f4b095199b7","fromNode":"f59147c001e730f5","fromSide":"right","toNode":"e6173c76835eee6d","toSide":"left","color":"6"},
-		{"id":"7fcecb665b8fcdb1","fromNode":"c8fb08f7c09c08f1","fromSide":"bottom","toNode":"05a07b5e40228210","toSide":"right"},
-		{"id":"d8e7785f9b61da62","fromNode":"657c463fe5c3738c","fromSide":"top","toNode":"9701dc8c4fbcd486","toSide":"bottom"},
-		{"id":"aa77f0ac36662355","fromNode":"657c463fe5c3738c","fromSide":"top","toNode":"f345dc9532bb206d","toSide":"left"},
-		{"id":"9e949bdf020c6ea9","fromNode":"9701dc8c4fbcd486","fromSide":"top","toNode":"dbae18fcc61d6879","toSide":"bottom"},
-		{"id":"6b35a22007c3e43a","fromNode":"9701dc8c4fbcd486","fromSide":"top","toNode":"dbae18fcc61d6879","toSide":"bottom"},
-		{"id":"543dc38689598daa","fromNode":"6840042174279be8","fromSide":"right","toNode":"9701dc8c4fbcd486","toSide":"left"},
-		{"id":"70628b88be3831c7","fromNode":"9701dc8c4fbcd486","fromSide":"right","toNode":"82e64a7303ebd3b4","toSide":"left"}
+		{"id":"7fcecb665b8fcdb1","fromNode":"c8fb08f7c09c08f1","fromSide":"bottom","toNode":"05a07b5e40228210","toSide":"right"}
 	]
 }

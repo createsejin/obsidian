@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"c9f4270525472a4a","x":-180,"y":-120,"width":225,"height":60,"type":"text","text":"DuplicatedWavDetactor"},
+		{"id":"5acf4fb056e13927","x":-151,"y":-280,"width":165,"height":60,"type":"text","text":"FileAnalayzer"},
+		{"id":"d8625523e71e04d5","x":-151,"y":60,"width":168,"height":60,"type":"text","text":"CLIApplication"}
+	],
+	"edges":[
+		{"id":"5a4e4766e05109ec","fromNode":"d8625523e71e04d5","fromSide":"top","toNode":"c9f4270525472a4a","toSide":"bottom"},
+		{"id":"602c80c1d4ef54a6","fromNode":"c9f4270525472a4a","fromSide":"top","toNode":"5acf4fb056e13927","toSide":"bottom"}
+	]
+}
