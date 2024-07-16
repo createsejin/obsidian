@@ -1,11 +1,14 @@
 {
 	"nodes":[
-		{"id":"c9f4270525472a4a","x":-180,"y":-120,"width":225,"height":60,"type":"text","text":"DuplicatedWavDetactor"},
-		{"id":"5acf4fb056e13927","x":-151,"y":-280,"width":165,"height":60,"type":"text","text":"FileAnalayzer"},
-		{"id":"d8625523e71e04d5","x":-151,"y":60,"width":168,"height":60,"type":"text","text":"CLIApplication"}
+		{"id":"c9f4270525472a4a","type":"text","text":"DuplicatedWavDetactor","x":-180,"y":-120,"width":225,"height":60},
+		{"id":"d8625523e71e04d5","type":"text","text":"CLIApplication","x":-151,"y":60,"width":168,"height":60},
+		{"id":"5acf4fb056e13927","type":"text","text":"FileAnalayzer","x":-20,"y":-320,"width":165,"height":60},
+		{"id":"40dcbd3cbd61fe13","type":"text","text":"PrintUtils","x":-242,"y":-320,"width":125,"height":60},
+		{"id":"576595c307205e37","type":"text","text":"DupEntity","x":-420,"y":-200,"width":132,"height":60}
 	],
 	"edges":[
 		{"id":"5a4e4766e05109ec","fromNode":"d8625523e71e04d5","fromSide":"top","toNode":"c9f4270525472a4a","toSide":"bottom"},
-		{"id":"602c80c1d4ef54a6","fromNode":"c9f4270525472a4a","fromSide":"top","toNode":"5acf4fb056e13927","toSide":"bottom"}
+		{"id":"602c80c1d4ef54a6","fromNode":"c9f4270525472a4a","fromSide":"top","toNode":"5acf4fb056e13927","toSide":"bottom"},
+		{"id":"89962c2919b1f06e","fromNode":"c9f4270525472a4a","fromSide":"top","toNode":"40dcbd3cbd61fe13","toSide":"bottom"}
 	]
 }
