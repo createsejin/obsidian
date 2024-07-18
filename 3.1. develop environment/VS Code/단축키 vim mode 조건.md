@@ -1,4 +1,4 @@
-[[유용한 단축키 정리|단축키]]를 정의할때 `"when"`이라는 옵션이 있다. 바로 이 단축키가 언제 동작하게 하느냐인데,
+[[단축키 정리|단축키]]를 정의할때 `"when"`이라는 옵션이 있다. 바로 이 단축키가 언제 동작하게 하느냐인데,
 `default settings.json`파일에 보면 vim plugin의 특정 mode에서 동작하는 키를 구현하는 조건문이 나온다.
 ```json
 "when": "editorTextFocus && inputFocus && notebookEditorFocused && vim.mode == 'Normal' && notebookEditorCursorAtBoundary != 'bottom' && notebookEditorCursorAtBoundary != 'none'"
