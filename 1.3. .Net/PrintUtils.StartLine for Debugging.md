@@ -45,3 +45,5 @@ public class PrintUtils : IPrintUtils
 ```
 
 여기에서 한가지 깨달은 사실은 `(double)(label.Length / 2.0)` 이 부분인데 이걸 만약 `(double)(label.Length / 2)` 이런식으로 뒤에다가 `.0`을 안붙이면 아마도 나머지 기반의 나눗셈을 해버리는것 같다. 소수 기반 나눗셈을 위해서는 반드시 나누는 수인 제수 역시 부동소숫점 형식이여야 한다는 것. 앞에 `(double)`로 캐스팅한 이유는 `Math.Round` 함수가 `decimal`과 `double`을 둘 다 받는데 `label.Length / 2.0` 이렇게만 쓰면 둘 중 어느것을 사용할지 컴파일러가 결정할 수 없기 때문에 명시적으로 캐스팅을 해줘야한다.
+
+여기에서 `PrintDelegate` delegate가 쓰였는데, delegate의 설명과 사용법은 [[PrintFileArray T, delegate|이 글]]에 잘 설명되었으니 참고하자.
