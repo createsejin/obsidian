@@ -3,19 +3,20 @@
 		{"id":"f345dc9532bb206d","type":"text","text":"CancellationTokenProvider","x":60,"y":-420,"width":258,"height":60},
 		{"id":"dbae18fcc61d6879","type":"text","text":"MainMessenger","x":4,"y":-130,"width":185,"height":60},
 		{"id":"a491be17c09fc9d7","type":"text","text":"SearcherService","x":486,"y":-420,"width":181,"height":60},
-		{"id":"c8fb08f7c09c08f1","type":"text","text":"SearcherOperator","x":428,"y":80,"width":196,"height":60},
-		{"id":"47a6a44fb21fb7a6","type":"text","text":"TabNodeHandler","x":744,"y":270,"width":185,"height":60},
-		{"id":"2b32a76e7ff24da3","type":"text","text":"SearcherTaskHandler","x":526,"y":430,"width":218,"height":60},
 		{"id":"e6173c76835eee6d","type":"text","text":"CommandMessenger","x":-502,"y":10,"width":205,"height":60},
 		{"id":"c4c4896bc762b965","type":"text","text":"PrintUtils","x":23,"y":-270,"width":147,"height":60},
-		{"id":"05a07b5e40228210","type":"text","text":"ThreadLinkHandler","x":189,"y":370,"width":195,"height":60},
 		{"id":"b4609ce352894cae","type":"text","text":"Searcher","x":457,"y":-200,"width":138,"height":60},
-		{"id":"fe64a7072977ba92","x":170,"y":80,"width":146,"height":60,"type":"text","text":"HtmlParser"},
 		{"id":"c916ff6fac37567b","type":"text","text":"ControllerService","x":-502,"y":-330,"width":205,"height":60},
 		{"id":"45163e2320025040","type":"text","text":"Controller","x":-469,"y":-170,"width":140,"height":60},
 		{"id":"6840042174279be8","type":"text","text":"CommandOperator","x":-499,"y":210,"width":200,"height":60},
 		{"id":"59aa77cf4bbbbbe9","type":"text","text":"HostApplicationLifetime","x":-519,"y":370,"width":239,"height":60},
-		{"id":"f59147c001e730f5","type":"text","text":"Commander","x":-860,"y":15,"width":158,"height":50}
+		{"id":"f59147c001e730f5","type":"text","text":"Commander","x":-860,"y":15,"width":158,"height":50},
+		{"id":"fe64a7072977ba92","type":"text","text":"MyHtmlParser","x":170,"y":120,"width":170,"height":60},
+		{"id":"2b32a76e7ff24da3","type":"text","text":"SearcherTaskHandler","x":595,"y":550,"width":218,"height":60},
+		{"id":"47a6a44fb21fb7a6","type":"text","text":"TabNodeHandler","x":813,"y":270,"width":185,"height":60},
+		{"id":"c8fb08f7c09c08f1","type":"text","text":"DownloadOperator\n: SearcherOperator","x":497,"y":100,"width":196,"height":80},
+		{"id":"b51d08d3c2b7ffca","x":243,"y":300,"width":153,"height":60,"type":"text","text":"ShareObject"},
+		{"id":"05a07b5e40228210","type":"text","text":"LinkHandler","x":178,"y":520,"width":155,"height":60}
 	],
 	"edges":[
 		{"id":"35923bfcdfa0be6d","fromNode":"c916ff6fac37567b","fromSide":"bottom","toNode":"45163e2320025040","toSide":"top"},
@@ -44,6 +45,8 @@
 		{"id":"c0a97461a1651225","fromNode":"dbae18fcc61d6879","fromSide":"top","toNode":"c4c4896bc762b965","toSide":"bottom"},
 		{"id":"78550b2d8ac4db70","fromNode":"c8fb08f7c09c08f1","fromSide":"bottom","toNode":"2b32a76e7ff24da3","toSide":"top"},
 		{"id":"96ed6815cc5c18fe","fromNode":"c8fb08f7c09c08f1","fromSide":"left","toNode":"fe64a7072977ba92","toSide":"right"},
-		{"id":"c96c7cdf2323660b","fromNode":"fe64a7072977ba92","fromSide":"left","toNode":"dbae18fcc61d6879","toSide":"bottom"}
+		{"id":"c96c7cdf2323660b","fromNode":"fe64a7072977ba92","fromSide":"left","toNode":"dbae18fcc61d6879","toSide":"bottom"},
+		{"id":"5021c2deba5469b6","fromNode":"c8fb08f7c09c08f1","fromSide":"bottom","toNode":"b51d08d3c2b7ffca","toSide":"right"},
+		{"id":"99872fd25cc72d1b","fromNode":"fe64a7072977ba92","fromSide":"bottom","toNode":"b51d08d3c2b7ffca","toSide":"top"}
 	]
 }
