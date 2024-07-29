@@ -26,7 +26,7 @@ cd C:\Program Files (x86)\Android\android-sdk\cmdline-tools\11.0\bin
 아무튼 다행이다.. 아무리 그래도 Visual Studio 2022는 너무너무너무 불편하다..
 
 아무튼 또한가지 주의할 점은 target과 Startup project를 VSCode의 status bar 오른쪽의 `{}`에서 정해주고 Debug를  Run해야한다는 것이다. 
-처음 Debug할때에는 `Ctrl+Shift+G`로 Debug 창에 들어가면 'Run and Debug' 버튼이 보일것이다. 그 밑에 'Show all automatic debug configurations'를 눌러서 자기 프로젝트에 맞는 적절한 녀석을 선택해야한다.
+처음 Debug할때에는 `Ctrl+Shift+G`로 Debug 창에 들어가면 'Run and Debug' 버튼이 보일것이다. 그 밑에 'Show all automatic debug configurations'를 눌러서 프로젝트의 이름에 따라 적절한 걸 선택해주면 된다.
 
 또한 0xC0000374 에러가 발생해서 너무 난감한 상황이 있었다. Code 0xC0000374 is STATUS_HEAP_CORRUPTION (A heap has been corrupted.) 라는데.. 
 이건 대체 왜 그러는건지 잘 모르겠다. 아마도 내 생각에는 너무 폴더가 깊숙한 장소에 들어가 있어서 파일 이름 길이 때문에 문제가 생긴것 같은데.. 왜냐면 폴더가 놓인 위치에 따라 좀더 상위의 폴더에서는 이 문제가 발생하지 않는다는 점이었다. 아무래도 C 드라이브는 길이 제한이 들어가기 때문에 이런 문제가 발생한걸로 보인다.
