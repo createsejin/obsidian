@@ -45,3 +45,25 @@ if문
 	    mount_vera_disk S $s_key_file $s_device
 	  }
 ```
+
+foreach
+```powershell
+if ($args[0] -ieq "m") {
+  if ($args.Count -gt 2) {
+    foreach ($arg in $args[1..-1]) {
+      if ($arg -ieq "f") {
+        mount_vera_disk F $f_key_file $f_device
+      }
+      elseif ($arg -ieq "p") {
+        mount_vera_disk P $p_key_file $p_device
+      }
+      elseif ($arg -ieq "s") {
+        mount_vera_disk S $s_key_file $s_device
+      }
+      elseif ($arg -ieq "q") {
+        QdiskUnlock
+      }
+    }
+  }
+```
+`$args[1..-1]`은 배열 슬라이싱이다. 마지막에 `-1`은 요소 끝을 의미한다.
