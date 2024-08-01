@@ -13,7 +13,6 @@
         CommandEnqueue(request);
         _controller.CommandQueueing();
         lock (_is_exit_lock) if (_is_exit) break;
-        //@#cmd.loop
       }
       else _main_msger.EnqueueAndPrint("request is null");
     }
@@ -27,7 +26,6 @@
     string response = "accepted";
     writer.WriteLine(response);
     writer.Flush();
-    //@#cmd.enq
   }
 
   public void CommandQueueing()
@@ -55,7 +53,6 @@
         var searcher_task = _searcherFactory.CreateTask(args[0], args[1]);
         _searcher_tasks.Enqueue(searcher_task);
         await _searcher.QueueingTasksAsync();
-        //@#ctl.par
       }
       else if (trimed_cmd == "exit")
       {

@@ -61,7 +61,6 @@ class Searcher : ISearcher
     {
       _main_msger.EnqueueAndPrint("wait for search command..");
       _wait.WaitOne();
-      //@#sear.loop
     }
   }
 }

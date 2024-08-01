@@ -28,6 +28,17 @@ function mount_vera_disk {
   }
 ```
 
+```powershell
+function MSTestClassMethodNumberdTest {
+  param (
+    [Parameter(Mandatory = $true)]
+    [int]$class,
+    [int]$method
+  )
+...
+```
+이 function에서 만약 두번째 매개변수가 입력되지 않으면 `$method`는 0이 된다.
+
 if문 
 ```powershell
   if (-not (Test-Path "M:\")) {
@@ -67,3 +78,4 @@ if ($args[0] -ieq "m") {
   }
 ```
 `$args[1..-1]`은 배열 슬라이싱이다. 마지막에 `-1`은 요소 끝을 의미한다.
+

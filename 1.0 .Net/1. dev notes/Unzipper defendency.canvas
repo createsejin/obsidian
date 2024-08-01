@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"7ee5bcb070cf3fbc","x":60,"y":200,"width":194,"height":60,"type":"text","text":"SevenUnzipper"},
+		{"id":"d1fe74c414b4bb7d","x":-306,"y":140,"width":125,"height":60,"type":"text","text":"PrintUtils"},
+		{"id":"9fa8f09b3769f71f","x":-380,"y":300,"width":232,"height":60,"type":"text","text":"BrokenStringConvertor"},
+		{"id":"99281448cddb85cd","x":420,"y":200,"width":172,"height":60,"type":"text","text":"Commander"}
+	],
+	"edges":[
+		{"id":"86e7f9e013b87589","fromNode":"7ee5bcb070cf3fbc","fromSide":"left","toNode":"d1fe74c414b4bb7d","toSide":"right"},
+		{"id":"5e6a1f94e3ec9135","fromNode":"7ee5bcb070cf3fbc","fromSide":"left","toNode":"9fa8f09b3769f71f","toSide":"right"},
+		{"id":"6c3c3f9eb9959c1b","fromNode":"99281448cddb85cd","fromSide":"left","toNode":"7ee5bcb070cf3fbc","toSide":"right"}
+	]
+}

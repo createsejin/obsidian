@@ -28,7 +28,7 @@ class DIContainer
     builder.Services.AddSingleton<ISearcherTaskHandler, SearcherTaskHandler>();
     builder.Services.AddSingleton<ILinkHandler, LinkHandler>();
     builder.Services.AddSingleton<IMyHtmlParser, MyHtmlParser>();
-    //@#DIContainer
+    
     Host_ = builder.Build();
   }
 }
@@ -74,7 +74,6 @@ Test 클래스는 이런식으로 만들어둔다. 앞서 만든 DIContainer를 
     Console.InputEncoding = System.Text.Encoding.UTF8;
     _searcher?.DriverStart();
     _downloadOperator?.TabTreePrint();
-    //@#Setup
   }
 ```
 따라서 위와같이 인터페이스를 사용할때 물음표를 붙여서 Nullable한 변수를 사용해야한다.
@@ -97,7 +96,6 @@ Test 클래스는 이런식으로 만들어둔다. 앞서 만든 DIContainer를 
     string[] args = ["exit", "-n"];
     _printUtils?.StartLine("exit program");
     _commandOperator?.ExitPrograms(args);
-    //@#Test Download
   }
 ```
 최종적인 테스트코드는 위와 같다. 간단하게 `task`를 생성하고, `DonwloadRJ`를 진행한 후에 프로그램을 종료하는 코드(`ExitPrograms`)로 구성되어있다. 

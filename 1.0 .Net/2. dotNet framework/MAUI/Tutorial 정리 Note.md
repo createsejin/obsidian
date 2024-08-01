@@ -20,8 +20,7 @@ AppShell.xaml을 살펴보자.
     <ShellContent
       Title="Notes"
       ContentTemplate="{DataTemplate views:NotePage}"
-      Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}"/><!--
-    AppShell.X @#-->
+      Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}"/>
 
     <ShellContent
       Title="About"
@@ -55,8 +54,7 @@ NotePage.xaml을 살펴보자.
       <Label FontSize="22"
              Text="{Binding Version}"
              VerticalOptions="End"/>
-    </HorizontalStackLayout><!-- 
-    AboutPage.X @#-->
+    </HorizontalStackLayout>
     <Label Text="{Binding Message}"/>
     <Button Text="Learn more..."
             Clicked="LearnMore_Clicked"/>
