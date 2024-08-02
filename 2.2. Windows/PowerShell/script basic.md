@@ -1,3 +1,5 @@
+[공식 Documentation](https://learn.microsoft.com/en-us/powershell/?view=powershell-7.4)
+
 변수
 ```powershell
 $veracrypt = "C:\Program Files\VeraCrypt\VeraCrypt.exe"
@@ -38,6 +40,16 @@ function MSTestClassMethodNumberdTest {
 ...
 ```
 이 function에서 만약 두번째 매개변수가 입력되지 않으면 `$method`는 0이 된다.
+따라서
+```powershell
+if (0 -eq $test_method_num) {
+```
+이런식으로 함수 내부에서 저 변수가 입력되지 않음을 감지할 수 있다.
+또한 `$args`의 특정 순서 argument가 int인지 확인하려면
+```powershell
+if ($args[0] -is [int]) {
+```
+이런식으로 확인할 수 있다.
 
 if문 
 ```powershell
