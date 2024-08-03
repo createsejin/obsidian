@@ -173,8 +173,9 @@ keybindings:
     bindings: ["Apps+RShiftKey+J", "RMenu+RShiftKey+Down"]
 ```
 키보드는 이런식으로 바인딩하면 된다. 
-주의할점은 오른쪽 `RMenu` 키(오른쪽 `Alt`)를 사용할때에는 반드시 `HangulMode` 키 바인딩을 추가적으로 해줘야 입력기의 상태가 한글일때에도 정상적으로 동작한다.
+  주의할점은 오른쪽 `RMenu` 키(오른쪽 `Alt`)를 사용할때에는 반드시 `HangulMode` 키 바인딩을 추가적으로 해줘야 입력기의 상태가 한글일때에도 정상적으로 동작한다.
 겹치는 키가 있으면 기능이 작동하지 않으므로 키가 겹치지 않게끔 설정해주는게 중요하다.
+또한 주의할점은 `RAlt + E`는 절대로 키바인딩에 포함하면 안된다. 만약 그 키바인딩을 사용하면 [[RAlt + E 누르면 Alt 고정되는 현상|Alt가 고정되는 문제]]가 생긴다.
 
 설정한 KeyBind들은 [[GlazeWM KeyBinds|여기]]에서 확인하자.
 
@@ -183,5 +184,42 @@ keybindings:
   # to start Windows Terminal and Git Bash respectively.
   - command: "exec wt"
     binding: "Apps+Enter"
+  - command: "exec 'C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/devenv'"
+    binding: "OemPeriod+OemQuestion+V"
 ```
-	이걸로 특정 키에 어떤 프로그램을 실행시킬지 정할 수 있다. 
+이걸로 특정 키에 어떤 프로그램을 실행시킬지 정할 수 있다. 
+
+또한 Window rules라는게 있는데, 특정 윈도우가 띄워질때 어떤 동작을 실행할껀지 정해준다. 굉장히 중요한 기능 중 하나이다.
+```yaml
+window_rules:
+  # Task Manager requires admin privileges to manage and should be ignored unless running
+  # the WM as admin.
+  - command: "ignore"
+    match_process_name: "/Taskmgr|ScreenClippingHost/"
+
+  # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
+  - command: "set floating"
+    match_class_name: "#32770"
+
+  # Do not manage picture-in-picture windows for browsers. Note that the default is for
+  # English; change `match_title` to the window's title if you use another language.
+  - command: "ignore"
+    match_title: "[Pp]icture.in.[Pp]icture"
+    match_class_name: "Chrome_WidgetWin_1|MozillaDialogClass"
+  - command: "ignore"
+    match_process_name: "BandiView"
+  - command: "ignore"
+    match_process_name: "PowerToys.Peek.UI"
+  - command: "set floating"
+    match_process_name: "Everything"
+  - command: "set floating"
+    match_process_name: "KeePass"
+  - command: "set floating"
+    match_process_name: "Bandizip"
+  - command: "move to workspace cave"
+    match_title: "TheCave"
+```
+사용할 수 있는 command는 [여기](https://github.com/glzr-io/glazewm?tab=readme-ov-file#available-commands)에 있다.
+
+  한가지 팁으로, Everything에서 `inspect.exe`를 찾아서 그걸 실행하면 커서를 움직여서 내가 찾고싶은 창의 title이라던가 process name, class name 같은걸 알아낼 수 있다.
+이것은 windows sdk 툴킷에 포함되어있다.
