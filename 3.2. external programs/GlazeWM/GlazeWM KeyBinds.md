@@ -4,39 +4,38 @@ Workspace
 2 : Main workspace
 3 : Right workspace
 
-Terminal workspace : RAlt + T
-Open Terminal : Period + / + T
+Terminal workspace : Tab + T
+Open Terminal : Tab + Shift + T
 Move to Terminal workspace : RAlt + RShift + T
 
-Obsidian : RAlt + O
-Open Obsidian : Period + / + O
+Obsidian : Tab + O
+Open Obsidian : Tab + Shift + O
 Move to Obsidian workspace : RAlt + RShift + O
 
-Visual Studio Code workspace : RAlt + C
-Open Visual Studio Code : Period + / + C
+Visual Studio Code workspace : Tab + C
+Open Visual Studio Code : Tab + Shift + C
 Move to Visual Studio Code workspace : RAlt + RShift + C
 
-Visual Studio 2022 workspace : RAlt + V
-Open Visual Studio 2022 : Period + / + V
+Visual Studio 2022 workspace : Tab + V
+Open Visual Studio 2022 : Tab + Shift + V
 Move to Visual Studio 2022 workspace : RAlt + RShift + V
 
-Chrome Web browser workspace : RAlt + W
-Open Chrome Web browser : Period + / + W
+Chrome Web browser workspace : Tab + W
+Open Chrome Web browser : Tab + Shift + W
 Move to Chrome Web browser workspace : RAlt + RShift + W
 
-File Explorer workspace : RAlt + F
-Open File Explorer : Period + / + F
+File Explorer workspace : Tab + F
+Open File Explorer : Tab + Shift + F
 Move to File Explorer workspace : RAlt + RShift + F
 
-Everything workspace : RAlt + Y
-Open Everything : Period + / + Y
-Move to Everything : RAlt + RShift + Y
+Everything workspace : Tab + E
+Open Everything : Tab + Shift + E
+Move to Everything : RAlt + RShift + E
 
-focus left : Alt + H, Tab + H
-focus right : Alt + L, Tab + L
-focus down : Tab + J
-focus up : Tab + K
+focus left : Alt + H
+focus right : Alt + L
 Workspace Move : Alt + Shift + (H, L)
+Move focused window : Alt + Shift + (J, K)
 
 toggle Floating : / + RShift + F
 toggle Maximize : Alt + X

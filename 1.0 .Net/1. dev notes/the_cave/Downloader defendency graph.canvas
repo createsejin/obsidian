@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"42e323c128ce4650","x":-560,"y":-30,"width":216,"height":60,"type":"text","text":"DownloadMsgerClient\n(from Searcher)"},
+		{"id":"7cc3626b529c0df3","x":20,"y":-240,"width":250,"height":60,"type":"text","text":"CancellationTokenProvider"},
+		{"id":"47987811c1dc77d9","x":-344,"y":-240,"width":196,"height":60,"type":"text","text":"MessengerService"},
+		{"id":"c0d8460e303229ee","x":460,"y":-240,"width":221,"height":60,"type":"text","text":"RJDownloaderService"},
+		{"id":"52eed486f19cddd7","x":270,"y":-30,"width":160,"height":60,"type":"text","text":"Downloader"},
+		{"id":"cedfc9baa0274c37","x":-148,"y":-30,"width":145,"height":60,"type":"text","text":"Messenger"}
+	],
+	"edges":[
+		{"id":"3909f764b74c4564","fromNode":"47987811c1dc77d9","fromSide":"bottom","toNode":"cedfc9baa0274c37","toSide":"left"},
+		{"id":"8844bae7a4d11e8f","fromNode":"c0d8460e303229ee","fromSide":"bottom","toNode":"52eed486f19cddd7","toSide":"right"},
+		{"id":"55ab582bddecf00c","fromNode":"cedfc9baa0274c37","fromSide":"right","toNode":"52eed486f19cddd7","toSide":"left"},
+		{"id":"0e2ad5c23fc42921","fromNode":"47987811c1dc77d9","fromSide":"right","toNode":"7cc3626b529c0df3","toSide":"left"},
+		{"id":"ba1350a6a6e4654d","fromNode":"c0d8460e303229ee","fromSide":"left","toNode":"7cc3626b529c0df3","toSide":"right"},
+		{"id":"efd3d7d80f5ea1f6","fromNode":"cedfc9baa0274c37","fromSide":"top","toNode":"7cc3626b529c0df3","toSide":"left"},
+		{"id":"073e9a384f55c2a9","fromNode":"52eed486f19cddd7","fromSide":"top","toNode":"7cc3626b529c0df3","toSide":"right"},
+		{"id":"0673740d56319bf5","fromNode":"42e323c128ce4650","fromSide":"right","toNode":"cedfc9baa0274c37","toSide":"left","color":"5"}
+	]
+}

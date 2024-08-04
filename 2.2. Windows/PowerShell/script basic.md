@@ -12,6 +12,8 @@ function help_msg {
   'pack m           : mount key capsule readonly mode'
   'pack m rw        : mount key capsule read and write mode'
   'pack m f         : mount F disk'
+
+Write-Output "Target directory '$target_dir' does not exist. Creating..."
 ```
 
 Function
