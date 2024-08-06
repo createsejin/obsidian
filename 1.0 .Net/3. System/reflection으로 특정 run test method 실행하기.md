@@ -24,7 +24,7 @@ if (int.TryParse(args[0], out int class_num) && int.TryParse(args[1], out int me
   string test_class_name = $"HttpClientTest1.Tests{class_num}";
   string test_method_name = $"Test{method_num}";
   Type? classType = Type.GetType(test_class_name);
-  MethodInfo? methodInfo = classType?.GetMethod(test_method_name);
+MethodInfo? methodInfo = classType?.GetMethod(test_method_name);
   if (classType is not null)
   {
     object? test_class = Activator.CreateInstance(classType);

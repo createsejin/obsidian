@@ -1,4 +1,4 @@
-NUnit에서 DI 컨테이너를 이용해서 어플리케이션의 일부 메서드를 테스트하려면 준비할게 좀 있다. 
+	NUnit에서 DI 컨테이너를 이용해서 어플리케이션의 일부 메서드를 테스트하려면 준비할게 좀 있다. 
 우선 `DIContainer` 클래스를 하나 만들어야한다. 이렇게 따로 클래스를 만드는 이유는 이 클래스의 객체를 Test 클래스에서 생성하여 수명을 유지하기 위함이다.
 ```csharp
 using Microsoft.Extensions.DependencyInjection;
