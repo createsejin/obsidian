@@ -5,12 +5,11 @@ git checkout <hash>
 ```
 그러면 main branch와 detach된 상태로 그때 시점으로 돌아간다.
 
-작업을 한 후에 commit을 한다. 그 commit의 hash를 얻는다.
-
-새로운 branch를 만든다.
+새로운 branch로 switch한다.
 ```
-git branch temp001 <new commit hash>
+git switch -c temp001
 ```
+작업을 한 후에 commit을 한다. 
 
 master 브랜치로 이동한다.
 ```
