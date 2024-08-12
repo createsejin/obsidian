@@ -26,3 +26,13 @@ tagname `input`, `name=username`
 var userNameInputElementLinq = document.All
   .First(e => e.LocalName == "input" && e.Attributes["name"]?.Value == "username");
 ```
+
+by name
+```csharp
+var keyword_input = form.Elements["keywords"] as IHtmlInputElement;
+```
+
+by tagname, type and value
+```csharp
+var relevanceRadioButton = form.QuerySelector<IHtmlInputElement>(@"input[type='radio'][value='relevance']");
+```
