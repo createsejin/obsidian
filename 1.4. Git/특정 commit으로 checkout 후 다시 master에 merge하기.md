@@ -15,6 +15,7 @@ master 브랜치로 이동한다.
 ```
 git checkout master
 ```
+	만약 특정 파일만 해당 branch에서 따오고 싶은 경우에는 [[Git에서 특정 파일만 특정 시점 commit으로 되돌리기#^a|이걸]] 참고한다.
 
 새로 만들어진 `temp001` branch를 master에 merge한다.
 ```
