@@ -10,4 +10,6 @@ stash@{0}: WIP on http001: 6016090 HttpClient Login attempt is failed.
 stash@{1}: WIP on master: 23f5369 anchor reform
 ```
 이런식으로 나오는데, 
-가장 최근이 아닌 stash를 pop할 수도 있다. `git stash pop stash@{1}` 이렇게 하면 된다.
+가장 최근이 아닌 stash를 pop할 수도 있다. `git stash pop 1` 이렇게 하면 된다.
+근데 pop은 그 stash를 적용한 뒤에 stash를 삭제하는거고, 진짜로 삭제만 하려면 `drop`을 해야한다.
+`git stash drop 1` 이렇게 하면 된다.
