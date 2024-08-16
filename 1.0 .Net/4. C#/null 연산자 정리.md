@@ -34,3 +34,16 @@ nullable 타입 지정자 `?`를 사용하면 값 타입도 null을 허용하도
 
 이렇게 `string? response = stream_reader.ReadLine()` 을 사용하면, `response` 변수는 null 또는 string 값을 가질 수 있게 됩니다. 이를 통해 `stream_reader.ReadLine()`이 null을 반환하는 경우에도 별도의 null 검사 없이 안전하게 처리할 수 있습니다.
 
+
+5. null compound assignment
+```csharp
+    if (_progressBarManager is null) _progressBarManager = new();
+    
+    _progressBarManager ??= new();
+```
+두 표현은 서로 같다. 
+
+6. null warning suppress
+```csharp
+temperatureInt = forecastNode!["Temperature"]!.GetValue<int>();
+```
