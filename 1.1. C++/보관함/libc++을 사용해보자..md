@@ -21,8 +21,8 @@ cmake -DCMAKE_INSTALL_PREFIX="C:/Program Files/libcxx" -DCMAKE_RC_COMPILER="C:/P
 ```
 Remove-Item -Path .\build\* -Recurse -Force
 ```
-## 씨발
+## 야발
 개 빡친다. 아무래도 윈도우즈에서는 libc++은 기대하지 않는게 좋을 것 같다. 어차피 여기에는 windows.h도 없을테니 그냥 윈도우즈에서는 MSVC 표준 라이브러리를 사용해야할것 같다.. 
-아무래도 모듈을 쓰려면 그냥 리눅스 시스템에서 쓰는게 가장 속 편한듯. 좆같다. 그냥 메인컴에다가 리눅스 깔아버릴까. 쓰발. 이번에는 아치 리눅스 써볼까 ㅋㅋ
+아무래도 모듈을 쓰려면 그냥 리눅스 시스템에서 쓰는게 가장 속 편한듯.. 그냥 메인컴에다가 리눅스 깔아버릴까. 이번에는 아치 리눅스 써볼까 ㅋㅋ
 
 # 그냥 libc++은 리눅스에서 clang이랑 같이 쓰면 된다. Windows? ㅗ ㅗ

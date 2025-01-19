@@ -11,6 +11,6 @@
   \end{tikzpicture}
 \end{document}
 ```
-아니 이게 된다고??.. 미쳤따... 크아.. 이거만 가능하면 나 진짜 타자로 고수 수학 쌉가능?? 와.. 미친 ㅋㅋ
+아니 이게 된다고??.. 
 # [Obsidian TikZJax](https://github.com/artisticat1/obsidian-tikzjax/blob/main/README.md#obsidian-tikzjax)
 여기 가면 할 수 있는 예들이 많다. 연습해보자. 언젠가는..

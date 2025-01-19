@@ -1,4 +1,4 @@
-물론 MAUI는 기본적으로 DI 컨테이너를 기반으로 Defendency injection이 이루어진다. 
+?물론 MAUI는 기본적으로 DI 컨테이너를 기반으로 Defendency injection이 이루어진다. 
 
 우선은 entry point가 되는 `MauiProgram.cs`의 다음 코드를 살펴보자.
 ```csharp
