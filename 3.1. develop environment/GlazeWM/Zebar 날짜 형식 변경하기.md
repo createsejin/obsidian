@@ -4,7 +4,7 @@
         network: { type: 'network' },
         glazewm: { type: 'glazewm' },
         cpu: { type: 'cpu' },
-        date: { type: 'date', formatting: 'yyyy-MM-dd HH:mm' },
+        date: { type: 'date', formatting: 'yyyy-MM-dd EEE HH:mm' },
         battery: { type: 'battery' },
         memory: { type: 'memory' },
         weather: { type: 'weather' },
