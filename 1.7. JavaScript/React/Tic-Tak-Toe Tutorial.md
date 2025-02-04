@@ -38,3 +38,6 @@ npm install --force
 npm start
 ```
 WSL의 경우 VScode에서 해당 프로젝트 폴더를 연 뒤에 VSCode 터미널에서 `npm start`를 해주면 Windows의 기본 웹 브라우저에 페이지를 띄워준다. 물론 이것은 VSCode의 WSL Extension 이 있어야할것이다.
+
+## 더 좋은 방법
+은 그냥 앞에 `sudo`를 붙여서 설치해보라.
