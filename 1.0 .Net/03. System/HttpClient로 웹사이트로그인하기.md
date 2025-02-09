@@ -11,7 +11,7 @@
     CookieContainer = new(),
     UseProxy = true,
     /*
-    HttpClientHandler @#down.login*/
+    HttpClientHandler @@down.login*/
   };
   private HttpClient _client => new(_httpClientHandler);
 ```
@@ -135,7 +135,7 @@
       string result = await login_response.Content.ReadAsStringAsync();
       IsLoginSuccess(result, email);
       /*
-      LoginRapidGatorAsync @#down.login*/
+      LoginRapidGatorAsync @@down.login*/
     }
 ```
 이제 `request`를 `SendAsync` 메서드를 통해 요청을 보내고, `login_response`를 응답 받는다.

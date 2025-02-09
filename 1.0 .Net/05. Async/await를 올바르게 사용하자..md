@@ -4,7 +4,7 @@
     downloader.DownloadQueue.Enqueue(downloader_task.RapidDownloadLinks);
     await downloader.DownloadRapidFilesAsync();
     /*
-    DownloadStart @#down*/
+    DownloadStart @@down*/
     SendResult(downloader_task, 0);
   }
 ```
@@ -16,7 +16,7 @@
     downloader.DownloadQueue.Enqueue(downloader_task.RapidDownloadLinks);
     var async_task = downloader.DownloadRapidFilesAsync();
     /*
-    DownloadStart @#down*/
+    DownloadStart @@down*/
     SendResult(downloader_task, 0);
     await async_task;
   }
